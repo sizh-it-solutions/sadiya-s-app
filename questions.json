@@ -1,603 +1,605 @@
-[
-  {
-  "question": "The Rudder controls which movement of an aircraft?",
-    "options": {
-      "A": "pitch",
-      "B": "yaw",
-      "C": "roll",
-      "D": "turn"
+{
+  "questions": [
+    {
+      "question": "Which statement best describes the principle of Lift and Bernoulli Effect?",
+      "options": {
+        "A": "Lift is unrelated to airspeed and pressure.",
+        "B": "Lift is generated only by the engine thrust.",
+        "C": "Lift is created by differences in air pressure over and under the wing as explained by Bernoulli's principle.",
+        "D": "Lift is generated only when the aircraft is stationary."
+      },
+      "answer": "C",
+      "brief_explanation": "Lift occurs because air moves faster over the top of the wing, reducing pressure above and creating an upward force.",
+      "detailed_explanation": "According to Bernoulli's principle, faster moving air has lower pressure. The airfoil shape of the wing makes air travel faster over the top surface, reducing pressure and generating lift that supports the aircraft.",
+      "image": "images/lift_and_bernouilli_principle.jpg"
     },
-    "answer": "B",
-    "brief_explanation": "The rudder controls yaw, which is the side-to-side motion of the aircraft around its vertical axis. It does not directly control pitch or roll.",
-    "detailed_explanation": "The rudder is a primary flight control located on the vertical stabilizer. It is used to control yaw, the movement of the aircraft nose left or right around the vertical axis. Yaw control is essential for coordinated turns and counteracting adverse yaw during roll inputs. When the rudder is deflected, it produces a side force that yaws the nose. While the rudder can help initiate or balance turns, it does not directly cause rolling (that is the role of ailerons) or pitching (elevator). Proper rudder use is critical for crosswind landings, stall recovery, and spin prevention."
-  },
-  {
-    "question": "What is the definition of an aeroplane’s angle of attack ?",
-    "options": {
-      "A": "The angle between the direction of flight and longitudinal axis",
-      "B": "The angle between the longitudinal axis and the horizontal plane",
-      "C": "The angle between the lateral axis and horizontal plane",
-      "D": "The angle between the relative airflow and the chordline"
+    {
+      "question": "Which type of drag is affected by the shape of the aircraft?",
+      "options": {
+        "A": "Parasitic Drag",
+        "B": "Induced Drag",
+        "C": "Profile Drag",
+        "D": "Wave Drag"
+      },
+      "answer": "C",
+      "brief_explanation": "Profile drag depends on the shape and surface of the aircraft moving through the air.",
+      "detailed_explanation": "Profile drag is caused by the friction of air against the surface of the aircraft and by the pressure differences due to shape. Streamlined shapes reduce profile drag, improving efficiency."
     },
-    "answer": "D",
-    "brief_explanation": "Angle of attack is the angle between the wing’s chordline and the relative airflow. It is not defined by the horizon or aircraft axes directly.",
-    "detailed_explanation": "The angle of attack (AoA) is fundamental in aerodynamics, as it determines lift generation. It is the angle between the wing’s chordline and the relative airflow (or flight path vector). AoA is independent of the horizon, pitch attitude, or longitudinal axis, meaning an aircraft can be climbing steeply but still at a low AoA if the flight path matches the wing orientation. Lift increases with AoA until the critical angle is reached, beyond which airflow separates, causing a stall. Pilots monitor AoA indirectly through airspeed and stall warning devices since maintaining AoA within limits ensures safe flight."
-  },
-  {
-    "question": "A constant speed propeller is a propeller which",
-    "options": {
-      "A": "rotates at a constant speed by altering the blade angle",
-      "B": "is most efficient at a constant aircraft speed",
-      "C": "rotates at a constant speed by varying angle of attack",
-      "D": "maintains a constant aircraft speed by altering blade angle"
+    {
+      "question": "What is the angle of attack in an aircraft?",
+      "options": {
+        "A": "The angle between the runway and the aircraft during takeoff.",
+        "B": "The angle between the chord line of the wing and the relative airflow.",
+        "C": "The angle between the fuselage and the horizon.",
+        "D": "The angle at which the pilot looks out the cockpit."
+      },
+      "answer": "B",
+      "brief_explanation": "Angle of attack is the angle between the wing chord line and the oncoming air.",
+      "detailed_explanation": "The angle of attack is critical for lift. Too small, and lift is insufficient. Too large, and the wing may stall. Pilots adjust the angle to maintain controlled flight.",
+      "image": "images/angle_of_attack.jpg"
     },
-    "answer": "A",
-    "brief_explanation": "A constant-speed propeller keeps propeller RPM steady by automatically changing blade pitch angle to match power demand and airspeed.",
-    "detailed_explanation": "A constant-speed propeller is a variable-pitch propeller system controlled by a governor. The governor adjusts oil pressure to change blade pitch, allowing the propeller RPM to remain constant while engine power and airspeed vary. At high power (takeoff/climb), the blades flatten for more thrust; at cruise, they coarsen for efficiency. This system provides the benefits of both fixed-pitch climb and cruise propellers in one. It improves fuel efficiency, reduces engine stress, and provides optimal performance across a wide flight envelope."
-  },  
-  {
-    "question": "As fuel is consumed during level flight cruise at high altitude, which of the following factors is correct?",
-    "options": {
-      "A": "the angle of attack must be increased",
-      "B": "the stalling speed will increase",
-      "C": "the Centre of Pressure will move forward",
-      "D": "induced drag will decrease"
+    {
+      "question": "Select the statement that accurately explains the concept of Boundary Layer on an aircraft wing.",
+      "options": {
+        "A": "Incorrect explanation related to boundary layer",
+        "B": "Partially correct idea about boundary layer",
+        "C": "Accurate description of the thin layer of airflow near the wing surface",
+        "D": "Unrelated concept not tied to boundary layer"
+      },
+      "answer": "C",
+      "brief_explanation": "The Boundary Layer is a thin layer of air next to the wing surface affecting drag and lift.",
+      "detailed_explanation": "The correct option explains it as the thin layer of airflow near the wing surface that influences drag and lift behavior."
     },
-    "answer": "D",
-    "brief_explanation": "As weight decreases due to fuel burn, less lift is required. This reduces induced drag while maintaining level flight.",
-    "detailed_explanation": "In steady, level flight, lift must equal weight. As fuel burns, the aircraft becomes lighter, requiring less lift. With a constant airspeed, the wing can operate at a lower lift coefficient, which reduces induced drag. Induced drag is inversely proportional to speed squared and directly related to lift demand. Since weight decreases, the lift required decreases, lowering induced drag. Stall speed does not increase with decreasing weight; in fact, it decreases slightly. Centre of pressure movement depends on airfoil and AoA, not fuel consumption directly."
-  },
-  {
-    "question": "By what percentage does the lift increase in a steady level turn at 45˚ angle of bank compared to straight and level flight?",
-    "options": {
-      "A": "41%",
-      "B": "19%",
-      "C": "31%",
-      "D": "52%"
+    {
+      "question": "Which statement correctly explains Stability and Control in an aircraft?",
+      "options": {
+        "A": "Incorrect explanation related to stability and control",
+        "B": "Partially correct idea about stability and control",
+        "C": "Accurate description of stability ensuring predictable flight and control enabling maneuvering",
+        "D": "Unrelated concept not tied to stability and control"
+      },
+      "answer": "C",
+      "brief_explanation": "Stability ensures predictable aircraft behavior; control enables maneuvering.",
+      "detailed_explanation": "The correct option explains static and dynamic stability along with primary flight controls."
     },
-    "answer": "A",
-    "brief_explanation": "At 45° bank, the load factor is √2 (~1.41), meaning lift must increase by about 41% to maintain level flight.",
-    "detailed_explanation": "In a level turn, the lift vector is tilted, and only a component of lift counters weight. The required total lift increases with bank angle. The load factor (n) is calculated as 1/cos(bank). At 45°, cos(45) = 0.707, giving n = 1/0.707 ≈ 1.41. This means lift must be 1.41 times the straight-and-level lift, or a 41% increase. This higher lift requirement also raises stall speed and increases induced drag. Pilots must manage speed and angle of attack carefully in steep turns."
-  },
-  {
-    "question": "Considering subsonic incompressible airflow through a venturi, which statement is correct? 1) The static pressure in the undisturbed airflow is higher than in the throat 2) The speed in the undisturbed airflow is lower than in the throat",
-    "options": {
-      "A": "1) is incorrect (2) is incorrect",
-      "B": "1) is correct (2) is incorrect",
-      "C": "1) is incorrect (2) is correct",
-      "D": "1) is correct (2) is correct"
+    {
+      "question": "Identify the correct description of Yaw motion in an aircraft.",
+      "options": {
+        "A": "Motion around the longitudinal axis",
+        "B": "Motion around the vertical axis",
+        "C": "Motion around the lateral axis",
+        "D": "No relation to aircraft axes"
+      },
+      "answer": "B",
+      "brief_explanation": "Yaw is the side-to-side motion of the aircraft around its vertical axis.",
+      "detailed_explanation": "The correct option explains that yaw is controlled by the rudder and affects the aircraft’s heading."
     },
-    "answer": "D",
-    "brief_explanation": "In a venturi throat, airflow speeds up and static pressure decreases. Both statements are correct.",
-    "detailed_explanation": "The venturi effect demonstrates Bernoulli’s principle: as air passes through a restriction, velocity increases and static pressure decreases, while total pressure remains constant. Statement (1) is correct because static pressure outside the throat is higher than inside. Statement (2) is correct because the speed in the free stream is lower than in the throat. This principle underlies pitot-static systems and carburetors. Thus, option D is correct as both statements are true."
-  },
-  {
-    "question": "During spin recovery, which of the following is correct?",
-    "options": {
-      "A": "the ailerons are held in the neutral position",
-      "B": "the control stick is moved sideways, in the direction of the spin",
-      "C": "the control stick is moved sideways, against the direction of the spin",
-      "D": "the control stick is pulled fully back"
+    {
+      "question": "Which statement best defines Pitch in aviation terms?",
+      "options": {
+        "A": "Rotation around the vertical axis",
+        "B": "Rotation around the longitudinal axis",
+        "C": "Rotation around the lateral axis",
+        "D": "No relation to aircraft axes"
+      },
+      "answer": "C",
+      "brief_explanation": "Pitch is the up-and-down motion around the lateral axis.",
+      "detailed_explanation": "The correct option explains pitch control is achieved through the elevator and affects the aircraft’s climb or descent."
     },
-    "answer": "A",
-    "brief_explanation": "Ailerons must remain neutral during spin recovery. Using them can worsen the spin.",
-    "detailed_explanation": "Spin recovery procedure generally requires: throttle idle, ailerons neutral, full opposite rudder to the spin direction, and forward elevator to break the stall. Neutralizing the ailerons prevents the down-going wing from stalling more deeply, which would intensify the spin. Rudder provides yaw correction and stops rotation, while elevator reduces angle of attack to unstall the wings. Once the spin stops, controls are neutralized, and the aircraft is recovered to level flight. This standard procedure emphasizes the critical role of rudder and elevator, not ailerons, in spin recovery."
-  },
-  {
-    "question": "For a normally stable aeroplane, where is the Centre of Gravity located?",
-    "options": {
-      "A": "aft of the neutral point",
-      "B": "with a sufficient minimum margin ahead of the neutral point of the aeroplane",
-      "C": "at the neutral point of the aeroplane",
-      "D": "between the aft limit and the neutral point of the aeroplane"
+    {
+      "question": "Select the statement that accurately explains Roll motion in an aircraft.",
+      "options": {
+        "A": "Rotation around the lateral axis",
+        "B": "Rotation around the vertical axis",
+        "C": "Rotation around the longitudinal axis",
+        "D": "No relation to aircraft axes"
+      },
+      "answer": "C",
+      "brief_explanation": "Roll is the tilting motion around the aircraft’s longitudinal axis.",
+      "detailed_explanation": "The correct option explains roll control is achieved through ailerons and affects bank angle during turns."
     },
-    "answer": "B",
-    "brief_explanation": "The CG must be ahead of the neutral point to provide static stability, ensuring a restoring moment after disturbances.",
-    "detailed_explanation": "The neutral point is the aerodynamic center where pitching moments balance. If the CG lies ahead of this point, any pitch-up disturbance produces a restoring nose-down moment, ensuring stability. The margin between CG and neutral point is called static margin, and a minimum value is required for safety. If CG shifts too far aft, behind the neutral point, the aircraft becomes longitudinally unstable, making stalls or spins unrecoverable. Too far forward CG reduces efficiency and flare capability but remains stable. Manufacturers specify CG ranges to balance safety and performance."
-  },
-  {
-    "question": "How can an aircraft’s tendency to Dutch Roll be reduced?",
-    "options": {
-      "A": "reducing the size of the fin",
-      "B": "giving the wings anhedral",
-      "C": "sweeping the wings",
-      "D": "increasing longitudinal dihedral"
+    {
+      "question": "Which statement correctly explains the function of the Rudder in flight control?",
+      "options": {
+        "A": "Controls pitch",
+        "B": "Controls yaw",
+        "C": "Controls roll",
+        "D": "Controls speed"
+      },
+      "answer": "B",
+      "brief_explanation": "The rudder controls yaw, the side-to-side motion of the aircraft.",
+      "detailed_explanation": "The correct option explains that rudder input affects heading and coordination during turns."
     },
-    "answer": "B",
-    "brief_explanation": "Dutch roll is caused by strong dihedral effect. Anhedral reduces dihedral effect, lessening Dutch roll tendency.",
-    "detailed_explanation": "Dutch roll is an oscillatory instability involving coupled yaw and roll motions. It is common in swept-wing aircraft due to the dihedral effect. Strong dihedral causes rolling with sideslip, which couples with yaw to produce oscillations. Reducing dihedral effect mitigates this. One design method is anhedral (downward wing angle), which reduces lateral stability and therefore the coupling. Many large high-wing aircraft use anhedral for this reason. However, this reduces overall stability, so yaw dampers are often used in addition for safe handling."
-  },
-  {
-     "question": "How can the range of an aircraft be extended in a tailwind?",
-    "options": {
-      "A": "By maintaining the same airspeed and reducing power",
-      "B": "by maintaining a higher best range airspeed by increasing power",
-      "C": "Doing  nothing as the best range speed does not vary with a change in weight",
-      "D": "By reducing the weight of the aircraft"
+    {
+      "question": "Q19. V-n Diagram: What is the correct theoretical explanation of this concept?",
+      "options": {
+        "A": "Incorrect explanation related to v-n diagram",
+        "B": "Partially correct idea about v-n diagram",
+        "C": "Accurate theoretical description of v-n diagram",
+        "D": "Unrelated concept not tied to v-n diagram"
+      },
+      "answer": "C",
+      "brief_explanation": "V-n Diagram is explained by fundamental aerodynamic principles.",
+      "detailed_explanation": "This question refers to the theory of V-n Diagram. The correct option explains the standard aerodynamic principle as described in Bob Tait's CPL Aerodynamics textbook. Other options represent common misconceptions."
     },
-    "answer": "D",
-    "brief_explanation": "Reducing aircraft weight lowers drag and required lift, which increases fuel efficiency and range.",
-    "detailed_explanation": "An aircraft's range is influenced by weight, drag, and fuel consumption. In a tailwind, although groundspeed increases, reducing the aircraft's weight further improves range by decreasing induced drag and fuel burn. Lower weight allows the aircraft to maintain optimal lift-to-drag ratio with less power. Reducing weight can be achieved by burning fuel or minimizing payload. While maintaining best range airspeed helps, weight reduction remains a fundamental factor for range extension. Tailwind alone improves groundspeed, but combining it with lower weight maximizes efficiency. Aircraft designers account for weight distribution and performance curves to optimize fuel consumption. Pilots can calculate weight reduction effects using performance charts. Lightening the aircraft reduces strain on engines and structure as well. Operational planning often considers weight management alongside wind conditions. This principle is especially important in long-haul flights where fuel efficiency is critical."
-  },
-  {
-    "question": "How will a turbulent atmosphere and strong ground winds affect wake turbulence ?",
-    "options": {
-      "A": "Both will help dissipate the wake turbulence",
-      "B": "Both will intensify wake turbulence",
-      "C": "The turbulent atmosphere with help dissipate, but the winds will strengthen the wake turbulence",
-      "D": "The turbulent atmosphere with strengthen, but the winds will help dissipate the wake turbulence"
+    {
+      "question": "Which statement correctly defines Universal Coordinated Time (UTC) in aviation?",
+      "options": {
+        "A": "Local time at the airport",
+        "B": "Universal Transport Clock",
+        "C": "International standard time for aviation operations",
+        "D": "Time used only for weather reporting"
+      },
+      "answer": "C",
+      "brief_explanation": "UTC is the standard time reference for all aviation operations worldwide.",
+      "detailed_explanation": "The correct option ensures pilots and controllers coordinate using a single time reference regardless of local time zones."
     },
-    "answer": "A",
-    "brief_explanation": "Turbulence and winds break up wake vortices, reducing their intensity and persistence.",
-    "detailed_explanation": "Wake turbulence consists of rotating air masses generated by the wingtips of an aircraft. In turbulent atmospheric conditions, vertical and horizontal air disturbances mix and dissipate these vortices more quickly. Strong ground winds can spread the wake turbulence horizontally and reduce its localized strength. Together, turbulence and ground winds decrease the risk of another aircraft encountering concentrated vortices. Pilots are trained to consider these factors when planning takeoff and landing sequences. Airports may adjust separation minima based on wind and turbulence conditions. Wind direction relative to the runway affects how wake vortices drift. Atmospheric stability also impacts how quickly wake vortices decay. Light winds allow vortices to linger longer near the runway. Turbulence in the upper atmosphere contributes less to near-ground dissipation but still affects overall vortex behavior. Understanding these effects helps improve operational safety and efficiency."
-  },
-  {
-    "question": "If an aircraft has static longitudinal stability, what effect will this have on dynamic stability?",
-    "options": {
-      "A": "The aircraft will be dynamically stable",
-      "B": "The aircraft may or may not be dynamically stable, depending on momentum and damping factors",
-      "C": "The aircraft will be dynamically unstable",
-      "D": "The aircraft will be dynamically stable only at low speeds"
+    {
+      "question": "Which instrument measures the aircraft's speed through the air?",
+      "options": {
+        "A": "Altimeter",
+        "B": "Airspeed Indicator",
+        "C": "Vertical Speed Indicator",
+        "D": "Compass"
+      },
+      "answer": "B",
+      "brief_explanation": "Airspeed indicator measures aircraft speed relative to the surrounding air.",
+      "detailed_explanation": "The correct option uses pitot and static pressures to indicate the aircraft's speed accurately."
     },
-    "answer": "B",
-    "brief_explanation": "Static stability does not guarantee dynamic stability; damping and inertial factors determine oscillation behavior.",
-    "detailed_explanation": "Static longitudinal stability refers to the initial tendency of an aircraft to return to equilibrium after a small disturbance in pitch. Dynamic stability, however, involves how these disturbances evolve over time, considering damping, inertia, and aerodynamic forces. An aircraft can have positive static stability yet still oscillate excessively or diverge dynamically if damping is insufficient. The mass distribution, tail size, and airspeed all influence dynamic response. Damping moments provided by the tail and fuselage help reduce oscillation amplitude over time. Pilots may experience short-period or phugoid oscillations depending on stability characteristics. Flight manuals provide guidelines for recognizing stable versus unstable dynamic behavior. Testing in flight or using simulators confirms theoretical stability predictions. Aircraft certification standards require analysis of both static and dynamic stability to ensure safe operation. A careful balance of control surfaces and tail design achieves desired stability characteristics."
-  },
-  {
-    "question": "On a wing fitted with Fowler flaps, the fully extended position will produce which effects?",
-    "options": {
-      "A": "an increase in wing area only",
-      "B": "increase in camber only",
-      "C": "increase in camber and wing area",
-      "D": "Increase in drag only"
+    {
+      "question": "What does the term 'Vne' signify in aircraft performance?",
+      "options": {
+        "A": "Takeoff speed",
+        "B": "Never exceed speed",
+        "C": "Stall speed",
+        "D": "Cruising speed"
+      },
+      "answer": "B",
+      "brief_explanation": "Vne is the maximum speed limit for safe flight.",
+      "detailed_explanation": "Exceeding Vne can cause structural damage to the aircraft."
     },
-    "answer": "C",
-    "brief_explanation": "Fowler flaps extend backward and downward, increasing both wing area and camber to enhance lift.",
-    "detailed_explanation": "Fowler flaps are designed to slide backward before deflecting downward. This motion increases the wing's chord length and surface area, boosting lift. Simultaneously, the downward deflection increases camber, further enhancing lift at lower speeds. The combination allows for slower approach speeds during landing and shorter takeoff runs. Increased wing area reduces wing loading, improving low-speed handling. Drag also increases, but the design balances lift-to-drag ratio for safe operations. Fowler flaps are common on transport aircraft where high lift is needed without excessively increasing wing size. Their effect on lift and drag is accounted for in performance charts. Pilots extend these flaps in stages, monitoring airspeed and handling. Maintenance ensures smooth sliding and deflection mechanisms. Proper flap usage reduces stall speed and enhances control during critical phases of flight."
-  },
-  {
-    "question": "Propeller slip is the difference between which parameters?",
-    "options": {
-      "A": "geometric pitch and the blade angle",
-      "B": "geometric pitch and the effective pitch",
-      "C": "plane of rotation and the aircraft’s forward velocity",
-      "D": "RPM of the engine and RPM of the propeller"
+    {
+      "question": "Which statement correctly defines Vso?",
+      "options": {
+        "A": "Maximum cruise speed",
+        "B": "Stall speed in landing configuration",
+        "C": "Takeoff speed",
+        "D": "Never exceed speed"
+      },
+      "answer": "B",
+      "brief_explanation": "Vso is the stall speed with flaps extended and landing gear down.",
+      "detailed_explanation": "Knowing Vso helps maintain safe approach and landing speeds."
     },
-    "answer": "B",
-    "brief_explanation": "Propeller slip measures how far the propeller 'slips' through the air, comparing theoretical and actual movement.",
-    "detailed_explanation": "Geometric pitch is the theoretical distance a propeller would move in one revolution if it acted like a screw in a solid medium. Effective pitch is the actual distance moved forward through the air. Slip occurs because air is not a solid medium; some energy is lost due to drag and airflow separation. Propeller slip is expressed as a percentage of geometric pitch. High slip reduces efficiency, while low slip indicates effective energy transfer. Pilots monitor propeller slip to optimize performance, especially for variable-pitch propellers. Factors affecting slip include airspeed, engine RPM, pitch setting, and altitude. Slip also influences thrust produced and fuel efficiency. During climb and cruise, propeller slip varies and is considered in flight planning. Understanding propeller slip helps in diagnosing underperformance or mechanical issues."
-  },
-  {
-    "question": "Referring to the power required curve below, which aeroplane performance parameter will occur at speed Y?[Power Curve]",
-    "options": {
-      "A": "best air nautical miles per gallon",
-      "B": "maximum glide range",
-      "C": "minimum total drag",
-      "D": "minimum litres per hour"
+    {
+      "question": "Which statement correctly defines Vs1?",
+      "options": {
+        "A": "Stall speed in clean configuration (flaps up)",
+        "B": "Stall speed in landing configuration",
+        "C": "Maximum speed in climb",
+        "D": "Cruising speed"
+      },
+      "answer": "A",
+      "brief_explanation": "Vs1 is stall speed with flaps retracted.",
+      "detailed_explanation": "Vs1 indicates the minimum controllable airspeed in a clean configuration."
     },
-    "answer": "A",
-    "brief_explanation": "Speed Y corresponds to maximum range, where fuel efficiency per distance is highest.",
-    "detailed_explanation": "On the power required curve, speed Y is where the aircraft requires minimum power for maximum distance per unit of fuel. This corresponds to the speed for best air miles per gallon, as fuel consumption per distance is minimized."
-  },
-  {
-    "question": "Stalling speed in a 15˚ angle of bank level turn is 60 knots. What will be the stalling speed in a 45˚angle of bank level turn ?",
-    "options": {
-      "A": "60 knots",
-      "B": "85 knots",
-      "C": "70 knots",
-      "D": "83 knots"
+    {
+      "question": "Which statement best defines Mach Number?",
+      "options": {
+        "A": "Ratio of aircraft speed to speed of sound",
+        "B": "Aircraft altitude in thousands of feet",
+        "C": "Ratio of lift to weight",
+        "D": "Ratio of drag to thrust"
+      },
+      "answer": "A",
+      "brief_explanation": "Mach number is the ratio of aircraft speed to the local speed of sound.",
+      "detailed_explanation": "Supersonic flight occurs at Mach > 1, affecting aerodynamics and control."
     },
-    "answer": "C",
-    "brief_explanation": "Stall speed increases with bank angle due to higher load factor.",
-    "detailed_explanation": "The stalling speed in a turn increases as VS_turn = VS_level * √(load factor). For a 45˚ bank, load factor = 1/cos(45˚) ≈ 1.414. So VS_turn = 60 * √1.414 ≈ 71.5 knots, rounded to 70 knots."
-  },
-  {
-    "question": "The tab in the diagram represents:",
-    "options": {
-      "A": "a servo tab",
-      "B": "a Balance tab",
-      "C": "an Anti-Balance tab",
-      "D": "a trim tab"
+    {
+      "question": "Which statement correctly explains the Coriolis Effect in navigation?",
+      "options": {
+        "A": "Causes magnetic variation",
+        "B": "Deflects moving objects due to Earth's rotation",
+        "C": "Affects airspeed indicators",
+        "D": "No effect in aviation"
+      },
+      "answer": "B",
+      "brief_explanation": "Coriolis effect deflects moving objects due to Earth's rotation.",
+      "detailed_explanation": "This principle is critical in long-distance navigation and meteorology."
     },
-    "answer": "C",
-    "brief_explanation": "Anti-balance tabs move in the opposite direction to increase stick force.",
-    "detailed_explanation": "An anti-balance tab is designed to move opposite the control surface, providing aerodynamic resistance and increasing the control force required by the pilot."
-  },
-  {
-    "question": "Two identical aircraft, A and B, with the same mass, are flying steady level coordinated 20˚ angle of bank turns. If the TAS of A is 130kt and the TAS of B is 200kt, what effect will this speed difference have?",
-    "options": {
-      "A": "the load factor of A will be the same as B",
-      "B": "the rate of turn of A will be  less than B",
-      "C": "the turn radius of A will be more than B",
-      "D": "the lift coefficient of A will be  less than B"
+    {
+      "question": "Which type of compass indicates Magnetic North rather than True North?",
+      "options": {
+        "A": "Gyroscopic compass",
+        "B": "Magnetic compass",
+        "C": "GPS compass",
+        "D": "Inertial navigation system"
+      },
+      "answer": "B",
+      "brief_explanation": "Magnetic compass aligns with the Earth's magnetic field.",
+      "detailed_explanation": "True North and Magnetic North differ, requiring pilots to apply variation corrections."
     },
-    "answer": "A",
-    "brief_explanation": "Load factor depends only on bank angle in steady coordinated turns.",
-    "detailed_explanation": "For a steady, coordinated turn, the load factor n = 1/cos(bank angle). It is independent of true airspeed, so both aircraft at 20˚ bank will have the same load factor."
-  },
-  {
-    "question": "What angle of attack is represented by X?",
-    "options": {
-      "A": "Stalling angle",
-      "B": "angle of attack for minimum drag",
-      "C": "CL MAX",
-      "D": "worst Lift/Drag Ratio"
+    {
+      "question": "Which navigation aid uses a ground-based radio beam to guide aircraft?",
+      "options": {
+        "A": "VOR",
+        "B": "ADF",
+        "C": "GPS",
+        "D": "Altimeter"
+      },
+      "answer": "A",
+      "brief_explanation": "VOR provides azimuth guidance via a ground radio beacon.",
+      "detailed_explanation": "VOR helps pilots determine their radial and position relative to the station."
     },
-    "answer": "B",
-    "brief_explanation": "Minimum drag occurs at a specific low angle of attack.",
-    "detailed_explanation": "The angle of attack at minimum drag corresponds to the most aerodynamically efficient angle, where parasite and induced drag are balanced for minimum total drag."
-  },
-  {
-    "question": "What angle of attack is represented by X?",
-    "options": {
-      "A": "CL Max",
-      "B": "4 degrees",
-      "C": "25 degrees",
-      "D": "16 degrees"
+    {
+      "question": "Which navigation aid points to a non-directional beacon (NDB)?",
+      "options": {
+        "A": "VOR",
+        "B": "ADF",
+        "C": "ILS",
+        "D": "DME"
+      },
+      "answer": "B",
+      "brief_explanation": "ADF points to an NDB to indicate direction.",
+      "detailed_explanation": "ADF uses automatic direction finding to assist in navigation."
     },
-    "answer": "A",
-    "brief_explanation": "CL Max occurs at the stalling angle of attack.",
-    "detailed_explanation": "The maximum coefficient of lift (CL Max) is achieved at the stalling angle, beyond which lift decreases rapidly due to flow separation."
-  },
-  {
-    "question": "What can happen to the aeroplane structure flying at a speed just exceeding Va?",
-    "options": {
-      "A": "it may break if the elevator is deflected fully up",
-      "B": "It may suffer permanent deformation if the elevator is fully deflected upwards",
-      "C": "It may suffer permanent deformation because the flight is performed at too large a dynamic pressure",
-      "D": "It will collapse if a turn is made"
+    {
+      "question": "Which statement correctly defines an Instrument Landing System (ILS)?",
+      "options": {
+        "A": "A visual approach aid",
+        "B": "A precision radio navigation system guiding aircraft to runway",
+        "C": "A GPS-based navigation system",
+        "D": "An altitude measuring device"
+      },
+      "answer": "B",
+      "brief_explanation": "ILS provides lateral and vertical guidance for precision approaches.",
+      "detailed_explanation": "The correct option explains how ILS helps pilots safely land during low visibility conditions."
     },
-    "answer": "B",
-    "brief_explanation": "Exceeding Va risks permanent structural deformation.",
-    "detailed_explanation": "Va is the design maneuvering speed. Exceeding it and applying full control deflection may cause the aircraft structure to deform permanently, although it is designed not to fail catastrophically below VNE."
-  },
-  {
-    "question": "What control movement occurs when the control column is moved back and to the right?",
-    "options": {
-      "A": "the elevator goes up, the right aileron goes down",
-      "B": "the elevator goes up, the left aileron goes down",
-      "C": "the elevator goes down, the right aileron goes down",
-      "D": "the elevator goes down, the left aileron goes down"
+    {
+      "question": "Which statement defines the purpose of Distance Measuring Equipment (DME)?",
+      "options": {
+        "A": "Measures aircraft altitude",
+        "B": "Measures distance from a ground station",
+        "C": "Measures airspeed",
+        "D": "Measures wind direction"
+      },
+      "brief_explanation": "DME provides slant range distance from a DME ground station.",
+      "detailed_explanation": "It is used in combination with VOR for position fixing and navigation."
     },
-    "answer": "B",
-    "brief_explanation": "Back and right on the control column results in pitch up and roll right.",
-    "detailed_explanation": "Pulling back raises the elevator (pitch up). Moving right lowers the left aileron and raises the right aileron, causing a right roll."
-  },
-  {
-    "question": "What defines an aeroplane’s angle of incidence?",
-    "options": {
-      "A": "The angle between the longitudinal axis and the horizontal plane",
-      "B": "The angle between the chordline and the longitudinal axis",
-      "C": "The angle between the speed vector and horizontal plane",
-      "D": "The angle between the chordline and relative airflow"
+    {
+      "question": "Which navigation aid allows pilots to track radial courses from a ground station?",
+      "options": {
+        "A": "ADF",
+        "B": "VOR",
+        "C": "ILS",
+        "D": "GPS"
+      },
+      "answer": "B",
+      "brief_explanation": "VOR allows pilots to track a radial from the station to determine position.",
+      "detailed_explanation": "By tuning into a VOR frequency, pilots can determine their bearing relative to the station."
     },
-    "answer": "B",
-    "brief_explanation": "The angle of incidence is the fixed angle between the wing chordline and the aircraft's longitudinal axis. It is a design feature that helps generate lift efficiently during level flight.",
-    "detailed_explanation": "Angle of incidence is a built-in angle in the aircraft's wing design. It is measured between the chordline of the wing and the longitudinal axis of the fuselage. Unlike the angle of attack, it does not change during flight. It helps ensure that the wing produces sufficient lift at cruise and takeoff speeds. By optimizing the angle of incidence, designers balance lift and drag characteristics for better overall aerodynamic performance. This angle is fixed and specific to each aircraft type. It is crucial for maintaining proper flight attitude without excessive nose-up or nose-down trim adjustments."
-  },
-  {
-    "question": "What does Bernoulli’s Theorem state happens in a perfect and constant airstream?",
-    "options": {
-      "A": "the sum of potential and kinetic energy is constant",
-      "B": "the Dynamic pressure is equal to the static pressure",
-      "C": "the dynamic pressure is always greater than static pressure",
-      "D": "the sum of dynamic and total pressure is constant"
+    {
+      "question": "Which statement best describes a Flight Management System (FMS)?",
+      "options": {
+        "A": "Manual navigation tool",
+        "B": "Integrated computer system for flight planning and guidance",
+        "C": "Aircraft maintenance system",
+        "D": "Weather monitoring system"
+      },
+      "answer": "B",
+      "brief_explanation": "FMS automates navigation, performance calculations, and route guidance.",
+      "detailed_explanation": "The FMS integrates GPS, INS, and navigation aids to optimize flight paths."
     },
-    "answer": "A",
-    "brief_explanation": "Bernoulli's theorem states that the total energy along a streamline remains constant, meaning as fluid speed increases, pressure decreases, and vice versa.",
-    "detailed_explanation": "Bernoulli’s Theorem applies to ideal, incompressible, and non-viscous fluid flow. In an airstream, it states that the sum of the fluid’s kinetic energy (related to velocity), potential energy (related to height), and pressure energy remains constant along a streamline. This principle explains how faster airflow over an airfoil reduces pressure on the upper surface, creating lift. It is a cornerstone of aerodynamics, helping us understand pressure distribution and velocity changes around wings and other aerodynamic surfaces. Bernoulli's principle is key in aircraft lift, pipe flow calculations, and many fluid dynamics applications."
-  },
-  {
-    "question": "What effect will a decrease in weight due to fuel consumption produce?",
-    "options": {
-      "A": "reduce stalling speed, but the stall angle will be the same",
-      "B": "reduce stall speed and the stall angle",
-      "C": "reduces the stalling angle and increase stalling speed",
-      "D": "has no effect on stall speed or angle"
+    {
+      "question": "Which type of altitude is indicated by the altimeter when set to standard pressure (1013 hPa)?",
+      "options": {
+        "A": "True altitude",
+        "B": "Indicated altitude",
+        "C": "Pressure altitude",
+        "D": "Density altitude"
+      },
+      "answer": "C",
+      "brief_explanation": "Pressure altitude is read when the altimeter is set to standard pressure.",
+      "detailed_explanation": "Pressure altitude is important for flight levels and airspace separation."
     },
-    "answer": "A",
-    "brief_explanation": "As the aircraft gets lighter, less lift is needed to maintain flight. This reduces stall speed while the angle at which stall occurs remains unchanged.",
-    "detailed_explanation": "Stalling occurs when the wing cannot produce enough lift to support the aircraft. Stall speed depends on weight, wing area, and lift coefficient. As fuel is consumed, the aircraft’s weight decreases. Lower weight requires less lift, which means the aircraft can fly at a lower speed without stalling. However, the critical angle of attack at which airflow separates from the wing remains constant. This is why lighter aircraft have lower stall speeds but the same stall angle. This principle is important for performance planning, approach speeds, and safety during long flights as fuel burns off."
-  },
-  {
-    "question": "What effect will Increasing the aspect ratio of a wing have?",
-    "options": {
-      "A": "An increase in stall speed",
-      "B": "A decrease in induced drag",
-      "C": "An increase in induced drag",
-      "D": "A decrease in gust load factor"
+    {
+      "question": "Which statement defines True Airspeed (TAS)?",
+      "options": {
+        "A": "Airspeed corrected for altitude and temperature",
+        "B": "Airspeed indicated on the dial",
+        "C": "Speed over ground",
+        "D": "Maximum allowable speed"
+      },
+      "answer": "A",
+      "brief_explanation": "TAS is indicated airspeed corrected for air density (altitude and temperature).",
+      "detailed_explanation": "TAS is used in performance calculations and navigation planning."
     },
-    "answer": "B",
-    "brief_explanation": "A higher aspect ratio reduces induced drag because the wing has a longer span relative to its chord, improving aerodynamic efficiency.",
-    "detailed_explanation": "Aspect ratio is the ratio of the wing’s span to its chord. High aspect ratio wings are long and narrow, while low aspect ratio wings are short and wide. Increasing aspect ratio reduces the strength of wingtip vortices, which lowers induced drag. Reduced induced drag improves lift-to-drag ratio, enhancing fuel efficiency and glide performance. Gliders and long-range aircraft use high aspect ratio wings for this reason. Conversely, low aspect ratio wings provide better maneuverability but suffer higher induced drag. Aspect ratio directly influences stall characteristics, turning performance, and climb efficiency."
-  },
-  {
-    "question": "What is meant by the term Static stability?",
-    "options": {
-      "A": "following a disturbance from the equilibrium condition, a force and /or moment is generated that tends to increase the effect of that disturbance",
-      "B": "following a disturbance from the equilibrium condition, a force and /or moment is generated that tends to counter the effects of that disturbance",
-      "C": "the amplitude of the oscillatory motion of the aircraft tends to decrease over time",
-      "D": "the amplitude of the oscillatory motion of the aircraft tends to increase over time"
+    {
+      "question": "Which type of aircraft icing occurs when supercooled droplets freeze on impact with the airframe?",
+      "options": {
+        "A": "Clear ice",
+        "B": "Rime ice",
+        "C": "Mixed ice",
+        "D": "Frost"
+      },
+      "answer": "A",
+      "brief_explanation": "Clear ice forms when supercooled water spreads over surfaces and freezes slowly.",
+      "detailed_explanation": "Clear ice is heavy, hard, and adheres strongly to aircraft surfaces, affecting aerodynamics."
     },
-    "answer": "B",
-    "brief_explanation": "Static stability refers to an aircraft’s initial tendency to return to its original position after a small disturbance.",
-    "detailed_explanation": "Static stability is a measure of how an aircraft reacts immediately after being disturbed from equilibrium. If a force or moment generated opposes the disturbance, the aircraft is statically stable. For example, if a gust lifts the nose, a statically stable aircraft produces a nose-down moment to restore equilibrium. This is different from dynamic stability, which concerns how the aircraft behaves over time. Static stability ensures safety and controllability. It is determined by the aircraft’s geometry, tailplane design, and center of gravity location. Pilots rely on static stability for predictable handling and reduced workload."
-  },
-  {
-    "question": "What is the blade angle of a propeller?",
-    "options": {
-      "A": "The angle between: the root chord and the tip chord of the propeller",
-      "B": "The angle between the chord and the relative airflow",
-      "C": "The angle between the chord of the propeller and the longitudinal axis of the aircraft",
-      "D": "The angle between the propeller chord and the plane of rotation"
+    {
+      "question": "Which type of aircraft icing forms as rough, opaque ice on leading edges?",
+      "options": {
+        "A": "Clear ice",
+        "B": "Rime ice",
+        "C": "Mixed ice",
+        "D": "Frost"
+      },
+      "answer": "B",
+      "brief_explanation": "Rime ice forms quickly in small droplets and appears rough and milky.",
+      "detailed_explanation": "Rime ice is less dense but can disrupt airflow, especially on wings and propellers."
     },
-    "answer": "D",
-    "brief_explanation": "The blade angle is the angle between the propeller blade chord and the plane in which the propeller rotates, affecting thrust and efficiency.",
-    "detailed_explanation": "Propeller blades generate thrust similarly to wings producing lift. The blade angle is set between the chord of the blade and the plane of rotation. A smaller angle is used at low airspeeds (takeoff) to allow higher rotational speed and maximum thrust. At cruise, a larger blade angle improves efficiency and reduces engine load. Correct blade angle ensures optimum aerodynamic performance, fuel efficiency, and avoids engine overloading. Propeller design involves trade-offs between climb, cruise, and maximum speed performance. Variable-pitch propellers adjust this angle in flight to maintain efficiency across different speeds."
-  },
-  {
-    "question": "What is the definition of the Dihedral angle of a wing?",
-    "options": {
-      "A": "The angle between the wing plane and horizontal with the aeroplane in an unbanked, level condition",
-      "B": "The angle between the leading edge of the wing and the lateral axis",
-      "C": "The angle between the chord of the wing and the lateral axis",
-      "D": "The angle between the chord line and the lateral axis"
+    {
+      "question": "Which statement describes the phenomenon of wake turbulence?",
+      "options": {
+        "A": "Turbulence from weather only",
+        "B": "Air disturbance behind aircraft caused by lift generation",
+        "C": "Turbulence in clouds only",
+        "D": "No effect on smaller aircraft"
+      },
+      "answer": "B",
+      "brief_explanation": "Wake turbulence results from wingtip vortices of a preceding aircraft.",
+      "detailed_explanation": "It is dangerous to small aircraft and must be avoided by proper separation."
     },
-    "answer": "A",
-    "brief_explanation": "Dihedral angle is the upward angle of the wings relative to the horizontal, improving lateral stability in flight.",
-    "detailed_explanation": "Dihedral angle helps the aircraft maintain roll stability. When one wing drops, it experiences increased lift due to its lower angle of attack relative to the oncoming airflow. This creates a restoring moment that raises the lowered wing. Positive dihedral improves stability, especially for light aircraft. Zero or negative dihedral (anhedral) may be used for aerobatic or high-speed aircraft to enhance maneuverability. Dihedral effect is important in preventing excessive rolling and for passenger comfort, as well as assisting in automatic self-correction during minor disturbances."
-  },
-  {
-    "question": "What is the definition of Washout?",
-    "options": {
-      "A": "there is airflow along the wing that keeps it clean",
-      "B": "the wing tip has a higher angle of incidence than the root",
-      "C": "the wing tip has a lower angle of incidence than the root",
-      "D": "the tailplane has a lower angle of attack than the wing"
+    {
+      "question": "Which statement defines a NOTAM?",
+      "options": {
+        "A": "Notice of weather changes",
+        "B": "Notice to Airmen about temporary flight information",
+        "C": "Flight plan submission",
+        "D": "Navigation chart"
+      },
+      "answer": "B",
+      "brief_explanation": "NOTAMs provide pilots with timely information about airspace, facilities, and hazards.",
+      "detailed_explanation": "Pilots must review relevant NOTAMs before flight for safety compliance."
     },
-    "answer": "C",
-    "brief_explanation": "Washout means the wingtip has a smaller angle of incidence than the root, helping prevent tip stalls before root stalls.",
-    "detailed_explanation": "Washout is a wing design feature where the angle of incidence decreases from root to tip. This ensures that the root stalls first, giving the pilot better aileron control during stall. It reduces the risk of wingtip stall, which could cause a sudden roll and loss of control. Washout improves low-speed handling and safety during takeoff and landing. Designers calculate washout based on aircraft weight, wing planform, and desired stall characteristics. This feature is common in light aircraft and gliders where controllability at low speeds is crucial."
-  },
-  {
-    "question": "What is the difference between Leading edge slats and Leading edge flaps?",
-    "options": {
-      "A": "they are the same",
-      "B": "Slats re energise the boundary layer and flaps increase the camber",
-      "C": "Leading edge flaps re energise the boundary layer and slats increase the camber",
-      "D": "Flaps decrease the stall speed while slats will increase the stall speed"
+    {
+      "question": "Which statement describes the purpose of a METAR report?",
+      "options": {
+        "A": "Flight plan filing",
+        "B": "Weather observation report for airports",
+        "C": "Navigation data",
+        "D": "Air traffic instructions"
+      },
+      "answer": "B",
+      "brief_explanation": "METAR is a routine weather report for aviation operations.",
+      "detailed_explanation": "It provides temperature, wind, visibility, cloud cover, and other essential information."
     },
-    "answer": "B",
-    "brief_explanation": "Slats help prevent flow separation; flaps increase camber and lift.",
-    "detailed_explanation": "Leading edge slats create a slot that allows high-energy air from beneath the wing to re-energize the boundary layer, delaying stall. Leading edge flaps change the airfoil camber, increasing lift but not directly energizing the boundary layer."
-  },
-  {
-    "question": "What is the effect of ice on the wing?",
-    "options": {
-      "A": "No effect the stalling speed and stalling angle of attack",
-      "B": "An increase the stalling speed and an Increase the stalling angle of attack",
-      "C": "An Increase the stalling speed and a reduction in the stalling angle of attack",
-      "D": "A decrease the stalling speed and an increase the stalling angle of attack",
-      "E": "A decrease in the stalling speed and a decrease in the stalling angle of attack"
+    {
+      "question": "Which type of cloud is most associated with severe turbulence?",
+      "options": {
+        "A": "Cumulonimbus",
+        "B": "Stratus",
+        "C": "Cirrus",
+        "D": "Altostratus"
+      },
+      "answer": "A",
+      "brief_explanation": "Cumulonimbus clouds contain strong updrafts and turbulence.",
+      "detailed_explanation": "Pilots must avoid CB clouds due to severe turbulence, icing, and lightning."
     },
-    "answer": "C",
-    "brief_explanation": "Ice increases stall speed and reduces stalling angle.",
-    "detailed_explanation": "Ice accumulation changes the wing’s shape and roughens the surface, causing airflow separation at lower angles of attack. This increases stall speed and decreases the stalling angle of attack."
-  },
-  {
-    "question": "What is the effect on induced drag of mass and speed changes?",
-    "options": {
-      "A": "Increases with increasing speed and decreasing mass",
-      "B": "Increases with increasing speed and increasing mass",
-      "C": "Decreases with decreasing speed and decreasing mass",
-      "D": "Decreases with increasing speed and decreasing mass"
+    {
+      "question": "Which statement best defines the term Flight Level?",
+      "options": {
+        "A": "Altitude in feet above sea level",
+        "B": "Altitude standardized by pressure 1013 hPa",
+        "C": "Height above ground level",
+        "D": "Distance to the nearest airport"
+      },
+      "answer": "B",
+      "brief_explanation": "Flight Level is a pressure-based altitude reference for high-altitude flight.",
+      "detailed_explanation": "Used to ensure separation between aircraft in controlled airspace."
     },
-    "answer": "D",
-    "brief_explanation": "Induced drag decreases with higher speed and lower weight.",
-    "detailed_explanation": "Induced drag is proportional to (lift²)/(speed²). Increasing speed reduces the angle of attack needed for lift, lowering induced drag. Reducing mass reduces required lift, also lowering induced drag."
-  },
-  {
-    "question": "What is the main reason for taking off into the wind?",
-    "options": {
-      "A": "to give a lower takeoff IAS",
-      "B": "to give a shorter takeoff run",
-      "C": "to keep propeller RPM maximum",
-      "D": "to help keep the aircraft straight"
+    {
+      "question": "Which statement describes the function of a transponder in aviation?",
+      "options": {
+        "A": "Measures airspeed",
+        "B": "Transmits aircraft position to ATC radar",
+        "C": "Provides navigation signals",
+        "D": "Measures fuel consumption"
+      },
+      "answer": "B",
+      "brief_explanation": "Transponders communicate position and altitude to radar systems.",
+      "detailed_explanation": "Modes A, C, and S are used depending on airspace and ATC requirements."
     },
-    "answer": "B",
-    "brief_explanation": "Headwind reduces ground speed needed for takeoff.",
-    "detailed_explanation": "Taking off into a headwind reduces the distance required to achieve the necessary lift-off speed relative to the ground, shortening the takeoff run."
-  },
-  {
-    "question": "What speed is B on the Drag curve?",
-    "options": {
-      "A": "Speed for best endurance",
-      "B": "Speed for best glide endurance",
-      "C": "Speed for best range",
-      "D": "Top speed in level flight"
+    {
+      "question": "Which statement correctly explains the concept of VOR radial?",
+      "options": {
+        "A": "Direction of aircraft to VOR station",
+        "B": "Distance to VOR station",
+        "C": "Vertical angle of approach",
+        "D": "Frequency of station"
+      },
+      "answer": "A",
+      "brief_explanation": "VOR radials define directions from the station in degrees magnetic.",
+      "detailed_explanation": "Radials allow pilots to navigate along defined courses relative to the station."
     },
-    "answer": "C",
-    "brief_explanation": "Best range occurs at speed for minimum drag per unit distance.",
-    "detailed_explanation": "Speed B represents the speed for maximum distance per unit of fuel. This occurs where the drag is minimized relative to airspeed, giving best range."
-  },
-  {
-    "question": "What would be the quickest way to exceed limit load factor on any aircraft?",
-    "options": {
-      "A": "fly straight and level and abruptly apply full up elevator deflection",
-      "B": "fly straight and level and abruptly apply full rudder deflection",
-      "C": "fly straight and level and abruptly apply full aileron deflection",
-      "D": "Being in a dive at VNE and abruptly apply full up elevator deflection"
+    {
+      "question": "Which statement correctly describes the purpose of a holding pattern?",
+      "options": {
+        "A": "Used for takeoff clearance",
+        "B": "Maintains aircraft position in airspace during delays",
+        "C": "Used for landing only",
+        "D": "Used for weather reporting"
+      },
+      "answer": "B",
+      "brief_explanation": "Holding patterns keep aircraft safely separated while awaiting clearance.",
+      "detailed_explanation": "Pilots follow published entry, pattern, and exit procedures."
     },
-    "answer": "D",
-    "brief_explanation": "Exceeding Va at high speed with abrupt control inputs can exceed structural limits.",
-    "detailed_explanation": "Being in a dive at or above VNE and abruptly applying full up elevator generates very high aerodynamic forces, quickly exceeding the aircraft’s design limit load factor."
-  },
-  {
-    "question": "When a flight control is fitted with an Anti-Balance tab, in which direction will the tab move relative to the flight control?",
-    "options": {
-      "A": "move in the same direction as the flight control",
-      "B": "move in the opposite direction to the flight control",
-      "C": "only move when the trim wheel is moved",
-      "D": "makes the control easier to move in flight"
+    {
+      "question": "Which type of navigation uses satellite signals for precise position determination?",
+      "options": {
+        "A": "VOR",
+        "B": "NDB",
+        "C": "GPS",
+        "D": "ADF"
+      },
+      "answer": "C",
+      "brief_explanation": "GPS provides accurate global position using satellites.",
+      "detailed_explanation": "GPS is widely used for en-route navigation and instrument approaches."
     },
-    "answer": "A",
-    "brief_explanation": "Anti-balance tab moves with the control to increase stick force.",
-    "detailed_explanation": "An anti-balance tab moves in the same direction as the control surface. Its purpose is to increase aerodynamic forces on the control, making the control feel heavier and preventing over-controlling."
-  },
-  {
-    "question": "When climbing into a head wind, compared to still air, what will the climb gradient relative to the ground be?",
-    "options": {
-      "A": "steeper and the rate of climb increased",
-      "B": "steeper and the rate of climb unchanged",
-      "C": "less steep and the rate of climb increased",
-      "D": "the same, and the rate of climb unchanged"
+    {
+      "question": "Which statement best defines the term Crosswind Component?",
+      "options": {
+        "A": "Wind along runway direction",
+        "B": "Wind perpendicular to runway direction",
+        "C": "Wind at high altitude only",
+        "D": "Wind measured in knots"
+      },
+      "answer": "B",
+      "brief_explanation": "Crosswind component affects takeoff and landing performance.",
+      "detailed_explanation": "Pilots must correct for crosswind using rudder and aileron control."
     },
-    "answer": "B",
-    "brief_explanation": "Ground climb gradient improves with headwind; rate of climb remains same.",
-    "detailed_explanation": "The aircraft’s rate of climb (vertical speed) relative to the air is unchanged, but the ground distance covered is reduced, making the climb gradient relative to the ground steeper."
-  },
-  {
-    "question": "When is Maximum gliding distance of an aircraft obtained?",
-    "options": {
-      "A": "when induced drag equals the coefficient of lift",
-      "B": "When induced drag and parasite drag are equal",
-      "C": "When parasite drag is the least",
-      "D": "When parasite drag is greatest"
+    {
+      "question": "Which statement correctly defines Ground Effect?",
+      "options": {
+        "A": "Increased drag near the ground",
+        "B": "Increased lift and reduced induced drag near ground",
+        "C": "Turbulence caused by wind",
+        "D": "Effect on navigation instruments"
+      },
+      "answer": "B",
+      "brief_explanation": "Ground effect reduces drag and increases lift during takeoff and landing.",
+      "detailed_explanation": "Pilots must be aware of this effect to avoid floating during landing or takeoff."
     },
-    "answer": "B",
-    "brief_explanation": "Maximum glide distance occurs where induced drag = parasite drag.",
-    "detailed_explanation": "For maximum gliding distance, the aircraft must fly at the speed where total drag is minimized. This happens when induced drag (from lift) equals parasite drag (from friction and shape)."
-  },
-  {
-    "question": "When roll spoilers are extended, what happens on the part of the wing on which they are mounted?",
-    "options": {
-      "A": "The wing stalls and this causes a difference in lift between both wings and generates the desired rolling moment",
-      "B": "the wing experiences an increase in drag which generates a yawing moment which then generates a rolling motion",
-      "C": "The wing experiences a reduction in lift which generates the desired rolling motion. There is also a local increase in drag which suppresses adverse yaw",
-      "D": "The wing is forced downwards as a reaction to the increased drag"
+    {
+      "question": "Which statement correctly describes the term Density Altitude?",
+      "options": {
+        "A": "Altitude above mean sea level",
+        "B": "Pressure altitude corrected for temperature",
+        "C": "Altitude at which aircraft stalls",
+        "D": "Altitude at maximum takeoff weight"
+      },
+      "answer": "B",
+      "brief_explanation": "Density altitude accounts for temperature effects on air density.",
+      "detailed_explanation": "High density altitude reduces aircraft performance, affecting takeoff and climb."
     },
-    "answer": "C",
-    "brief_explanation": "Spoilers reduce lift locally and add drag to control roll and minimize adverse yaw.",
-    "detailed_explanation": "Roll spoilers are panels on the upper surface of the wing that extend upward. When deployed, they reduce lift on that wing, producing a rolling motion toward the lowered-lift wing. Additionally, the increase in drag on the same wing counteracts adverse yaw, making the turn smoother."
-  },
-  {
-    "question": "When speed is increased in straight and level flight on a positively cambered aerofoil, what happens to the:1) the centre of pressure 2) the magnitude of the lift force",
-    "options": {
-      "A": "1) moves aft and (2) increases",
-      "B": "1) moves aft and (2) remains constant",
-      "C": "1) moves forward and (2) decreases",
-      "D": "1) moves forward and (2) remains constant"
+    {
+      "question": "Which statement describes the primary function of an altimeter?",
+      "options": {
+        "A": "Measures aircraft speed",
+        "B": "Measures altitude based on air pressure",
+        "C": "Measures temperature",
+        "D": "Measures wind direction"
+      },
+      "answer": "B",
+      "brief_explanation": "Altimeter shows altitude above sea level using atmospheric pressure.",
+      "detailed_explanation": "Pilots must set altimeter to local pressure (QNH) for accurate readings."
     },
-    "answer": "B",
-    "brief_explanation": "Centre of pressure moves aft with speed; lift remains constant in level flight.",
-    "detailed_explanation": "As speed increases in straight and level flight, the angle of attack must decrease to maintain constant lift. On a positively cambered aerofoil, this shifts the centre of pressure slightly aft. Since the aircraft is in equilibrium, the total lift equals the weight and remains essentially constant."
-  },
-  {
-    "question": "Which component of the Total reaction is Lift?",
-    "options": {
-      "A": "The vertical component of the total aerodynamic force, perpendicular to the relative airflow",
-      "B": "The component of the total aerodynamic force, perpendicular to the Mean aerodynamic chord",
-      "C": "The component of the total aerodynamic force, perpendicular to the relative airflow",
-      "D": "The component of the total aerodynamic force, parallel to the relative airflow"
+    {
+      "question": "Which statement defines Magnetic Variation?",
+      "options": {
+        "A": "Difference between True North and Magnetic North",
+        "B": "Difference between runway headings",
+        "C": "Error in compass caused by wind",
+        "D": "Difference in GPS readings"
+      },
+      "answer": "A",
+      "brief_explanation": "Magnetic variation is the angle difference between True and Magnetic North.",
+      "detailed_explanation": "Pilots correct for variation when navigating with a compass."
     },
-    "answer": "C",
-    "brief_explanation": "Lift is the aerodynamic force perpendicular to the relative airflow.",
-    "detailed_explanation": "The total aerodynamic force on a wing can be resolved into two components: lift, perpendicular to the relative airflow, and drag, parallel to it. Lift supports the aircraft weight in flight and acts perpendicular to the direction of motion through the air."
-  },
-  {
-    "question": "Which factor will reduce Induced drag?",
-    "options": {
-      "A": "an increase in the taper ratio of the wing",
-      "B": "an increase in aspect ratio",
-      "C": "a decrease in aspect ratio",
-      "D": "use of a wing tip with a much thinner aerofoil"
+    {
+      "question": "Which statement best explains the term Mach Buffet?",
+      "options": {
+        "A": "Vibrations caused by turbulence only",
+        "B": "Shockwave-induced buffet near transonic speeds",
+        "C": "Vibrations caused by engine",
+        "D": "No relation to flight"
+      },
+      "answer": "B",
+      "brief_explanation": "Mach buffet occurs near transonic speeds due to airflow separation at shockwaves.",
+      "detailed_explanation": "Pilots avoid speeds near critical Mach without proper handling."
     },
-    "answer": "B",
-    "brief_explanation": "Higher aspect ratio wings reduce induced drag.",
-    "detailed_explanation": "Induced drag is inversely proportional to the aspect ratio of a wing. Increasing the aspect ratio (longer wingspan relative to chord) reduces wingtip vortices and therefore reduces induced drag, improving aerodynamic efficiency."
-  },
-  {
-    "question": "Which of the following statements about the stall of a straight wing aeroplane is correct?",
-    "options": {
-      "A": "The horizontal tail will stall at a higher speed than the wing",
-      "B": "Buffeting is the result of separated flow from the tailplane",
-      "C": "The nose down effect is a result of increasing downwash, due to flow separation",
-      "D": "Just before the stall the aeroplane will have a nose down tendency"
+    {
+      "question": "Which statement correctly defines Rate of Climb?",
+      "options": {
+        "A": "Speed along runway",
+        "B": "Vertical speed measured in feet per minute",
+        "C": "Horizontal speed over ground",
+        "D": "Aircraft weight change"
+      },
+      "answer": "B",
+      "brief_explanation": "Rate of climb indicates how fast an aircraft gains altitude.",
+      "detailed_explanation": "It is measured by the vertical speed indicator and is crucial for performance planning."
     },
-    "answer": "D",
-    "brief_explanation": "Aircraft pitches nose-down just before a wing stall.",
-    "detailed_explanation": "As a straight-wing aircraft approaches stall, the airflow starts separating at the wing’s leading edge. This causes the nose to drop due to reduced lift at the front, which acts as a natural stall warning and recovery tendency."
-  },
-  {
-    "question": "Which of these statements about stall speed is correct?",
-    "options": {
-      "A": "Decreasing sweepback increases stall speed",
-      "B": "Decreasing sweepback decreases stall speed",
-      "C": "Decreasing anhedral decreases stall speed",
-      "D": "Increasing anhedral decreases stall speed"
+    {
+      "question": "Which statement defines Vx (Best Angle of Climb)?",
+      "options": {
+        "A": "Speed giving maximum altitude gain per time",
+        "B": "Speed giving maximum altitude gain per distance",
+        "C": "Maximum cruising speed",
+        "D": "Stall speed"
+      },
+      "answer": "B",
+      "brief_explanation": "Vx provides the best climb angle to clear obstacles.",
+      "detailed_explanation": "Used for takeoff and obstacle clearance during initial climb."
     },
-    "answer": "B",
-    "brief_explanation": "Less sweep reduces stall speed by improving lift at lower angles of attack.",
-    "detailed_explanation": "A wing with less sweep generates lift more efficiently at low speeds, lowering the stall speed. Sweepback delays drag rise at high speeds but increases stall speed at lower speeds."
-  },
-  {
-    "question": "Which three aerodynamic methods decrease maneuvering stick forces?",
-    "options": {
-      "A": "Servo tab, Trim tab, Horn balance",
-      "B": "Servo tab, Spring tab, Trim tab",
-      "C": "Spring tab, Servo tab, Balance tab",
-      "D": "Spring tab, Horn balance, Mass balance"
+    {
+      "question": "Which statement defines Vy (Best Rate of Climb)?",
+      "options": {
+        "A": "Speed giving maximum altitude gain per distance",
+        "B": "Speed giving maximum altitude gain per time",
+        "C": "Cruise speed",
+        "D": "Landing speed"
+      },
+      "answer": "B",
+      "brief_explanation": "Vy gives maximum altitude gain over time, optimizing climb performance.",
+      "detailed_explanation": "Vy is higher than Vx and used in normal climb operations."
     },
-    "answer": "C",
-    "brief_explanation": "Spring, servo, and balance tabs reduce control forces needed.",
-    "detailed_explanation": "Aerodynamic tabs like spring tabs, servo tabs, and balance tabs provide aerodynamic assistance to the primary control surface. They reduce the force required by the pilot to maneuver the aircraft, improving control response and reducing fatigue."
-  },
-  {
-    "question": "Which type of aircraft is more susceptible to crosswind on takeoff?",
-    "options": {
-      "A": "nose wheel",
-      "B": "tricycle",
-      "C": "tailwheel",
-      "D": "they are the same"
+    {
+      "question": "Which statement defines Load Factor?",
+      "options": {
+        "A": "Ratio of lift to weight",
+        "B": "Ratio of thrust to drag",
+        "C": "Aircraft fuel consumption rate",
+        "D": "Aircraft speed over ground"
+      },
+      "answer": "A",
+      "brief_explanation": "Load factor measures the stress on aircraft structure in turns and maneuvers.",
+      "detailed_explanation": "It is expressed in Gs and affects stall speed and structural limits."
     },
-    "answer": "C",
-    "brief_explanation": "Tailwheel aircraft are more affected by crosswinds due to center of gravity position.",
-    "detailed_explanation": "Tailwheel (taildragger) aircraft have their center of gravity behind the main landing gear. This makes them prone to weathervaning into the wind during takeoff or landing, making crosswind control more difficult than in nosewheel or tricycle aircraft."
-  },
-  {
-    "question": "Which type of flap is shown in the diagram?",
-    "options": {
-      "A": "Fowler flap",
-      "B": "Blown flap",
-      "C": "Plain flap",
-      "D": "Slotted flap"
+    {
+      "question": "Which statement best describes the purpose of an aircraft’s pitot tube?",
+      "options": {
+        "A": "Measures altitude",
+        "B": "Measures airspeed using dynamic pressure",
+        "C": "Measures temperature",
+        "D": "Measures magnetic heading"
+      },
+      "answer": "B",
+      "brief_explanation": "Pitot tube measures dynamic air pressure to indicate airspeed.",
+      "detailed_explanation": "It must be unobstructed to provide accurate readings."
     },
-    "answer": "D",
-    "brief_explanation": "Slotted flaps have a gap to energize airflow, increasing lift.",
-    "detailed_explanation": "A slotted flap creates a slot between the wing and the flap. Air flows through the slot, re-energizing the boundary layer over the flap and delaying flow separation. This increases lift more effectively than a plain flap at lower speeds."
-  },
-  {
-    "question": "You are going to use runway 18 and a large passenger jet just landed. Which wind would cause the most concern regarding the wake turbulence?",
-    "options": {
-      "A": "NW 10 knots",
-      "B": "NW 5 knots",
-      "C": "SW 10 knots",
-      "D": "SW 5 knots"
+    {
+      "question": "Which statement correctly explains Wake Vortex Separation?",
+      "options": {
+        "A": "Minimum separation due to turbulence from previous aircraft",
+        "B": "Separation for fuel efficiency",
+        "C": "Separation to avoid icing",
+        "D": "Separation only for military flights"
+      },
+      "answer": "A",
+      "brief_explanation": "Wake vortex separation prevents small aircraft from encountering dangerous vortices from large aircraft.",
+      "detailed_explanation": "ATC applies wake turbulence separation standards based on aircraft category."
     },
-    "answer": "B",
-    "brief_explanation": "Light wind allows wake vortices to drift across the runway more.",
-    "detailed_explanation": "A 5-knot crosswind (NW) may blow the wake turbulence across your intended flight path, increasing hazard. Stronger wind (10 knots) would move the vortices away from the runway more quickly, reducing danger."
-  },
-  {
-    "question": "You are lined up in a light aircraft on a runway on which a B747 has just taken off. The B747 rotated at 4500ft down the runway, and you know that you can rotate at 2500ft down the runway. Should you delay your departure and why?",
-    "options": {
-      "A": "Yes, as your performance is not as good, so you will still intercept the turbulence",
-      "B": "Yes",
-      "C": "No, as you are able to get airborne above the turbulence",
-      "D": "No"
-    },
-    "answer": "C",
-    "brief_explanation": "Your aircraft lifts off earlier, staying clear of the larger aircraft’s wake.",
-    "detailed_explanation": "Since your light aircraft can rotate and become airborne before the point where the B747’s wake vortices remain on the runway, you can safely depart without intercepting the heavy aircraft’s turbulence. Wake turbulence diminishes with altitude and distance."
-  }
-]
+    {
+      "question": "Which statement defines the effect of Temperature on Aircraft Performance?",
+      "options": {
+        "A": "Higher temperature increases air density",
+        "B": "Higher temperature decreases air density, reducing performance",
+        "C": "Temperature has no effect on performance",
+        "D": "Temperature only affects fuel burn"
+      },
+      "answer": "B",
+      "brief_explanation": "High temperatures reduce air density, decreasing lift and engine performance.",
+      "detailed_explanation": "Pilots must account for temperature when calculating takeoff distances and climb rates."
+    }
+  ]
+}
