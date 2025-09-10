@@ -1,68 +1,71 @@
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.templating import Jinja2Templates
-from fastapi.responses import HTMLResponse
-import json, random, os
+from fastapi.responses import JSONResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
+import json, random, os, traceback
 
 app = FastAPI(title="QnA Generator API")
 
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with frontend URL in production
-    allow_credentials=True,
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Jinja2 templates
-templates = Jinja2Templates(directory="templates")
+# Serve static files
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
-# Serve index.html at root
-@app.get("/", response_class=HTMLResponse)
-def root(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+# Path to questions.json
+QUESTIONS_FILE = "questions.json"
+questions_data = []
 
-
-# ----------------------
-# Helper: Load questions
-# ----------------------
-def load_questions():
-    file_path = "questions.json"
-    if not os.path.exists(file_path):
-        raise FileNotFoundError("Questions file not found.")
-    with open(file_path, "r", encoding="utf-8") as f:
+# Load questions at startup
+try:
+    print(f"Loading questions from {QUESTIONS_FILE}...")
+    with open(QUESTIONS_FILE, "r") as f:
         data = json.load(f)
-        if not isinstance(data, list):
-            raise ValueError("Questions file must be a list of questions.")
-        return data
+        questions_data = data.get("questions", [])
+    print(f"Loaded {len(questions_data)} questions successfully.")
+except Exception as e:
+    print(f"Error loading questions.json: {e}")
+    traceback.print_exc()
+    questions_data = []
 
+# Serve frontend automatically at /
+@app.get("/")
+async def serve_frontend():
+    index_path = os.path.join("static", "index.html")
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
+    return JSONResponse({"error": "index.html not found in /static"}, status_code=404)
 
-# ----------------------
-# Helper: Pick random question
-# ----------------------
-def get_random_question():
-    questions = load_questions()
-    if not questions:
-        raise ValueError("No questions available.")
-    q = random.choice(questions)
-    return {
-        "question": q.get("question", ""),
-        "options": [f"{key}. {val}" for key, val in q.get("options", {}).items()],
-        "correct_answer": q.get("answer", ""),
-        "brief_solution": q.get("brief_explanation", ""),
-        "detailed_explanation": q.get("detailed_explanation", "")
-    }
-
-
-# ----------------------
-# Single API endpoint
-# ----------------------
+# API endpoint to generate a random question
 @app.get("/api/generate_question")
-def generate_question():
+async def generate_question():
     try:
-        return get_random_question()
-    except (FileNotFoundError, ValueError) as e:
-        raise HTTPException(status_code=400, detail=str(e))
-    except Exception:
-        raise HTTPException(status_code=500, detail="Internal Server Error")
+        if not questions_data:
+            return JSONResponse(
+                {"error": "No questions available or questions.json missing/invalid."},
+                status_code=500
+            )
+
+        question = random.choice(questions_data)
+        image_path = question.get("image", "")
+        question_out = {
+            "question": question.get("question", ""),
+            "options": [f"{k}. {v}" for k, v in question.get("options", {}).items()],
+            "correct_answer": question.get("answer", ""),
+            "brief_solution": question.get("brief_explanation", ""),
+            "detailed_explanation": question.get("detailed_explanation", ""),
+            "image_url": f"/static/{image_path}" if image_path else ""
+        }
+        return question_out
+    except Exception as e:
+        print("Exception in generate_question:", e)
+        traceback.print_exc()
+        return JSONResponse(
+            {"error": f"Failed to generate question: {str(e)}"},
+            status_code=500
+        )
