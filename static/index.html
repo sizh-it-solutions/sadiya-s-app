@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QnA Generator</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; }
+img { max-width: 300px; display: block; margin: 10px 0; }
+button { margin-top: 10px; padding: 5px 10px; }
+#solution-container, #detailed-container { margin-top: 10px; }
+</style>
+</head>
+<body>
+<h1>QnA Generator</h1>
+<button id="generate-btn">Generate Question</button>
+<div id="question-container" style="margin-top:20px;"></div>
+
+<script>
+const generateBtn = document.getElementById("generate-btn");
+const questionContainer = document.getElementById("question-container");
+
+generateBtn.addEventListener("click", async () => {
+    questionContainer.innerHTML = "Loading...";
+    try {
+        const res = await fetch("/api/generate_question");
+        const data = await res.json();
+
+        if(data.error){
+            questionContainer.innerHTML = `<p style="color:red;">${data.error}</p>`;
+            return;
+        }
+
+        let html = `<h3>${data.question}</h3>`;
+        if(data.image_url){
+            html += `<img src="${data.image_url}">`;
+        }
+
+        html += `<div>`;
+        data.options.forEach(opt => {
+            html += `<label><input type="radio" name="option" value="${opt[0]}"> ${opt}</label><br>`;
+        });
+        html += `</div>`;
+        html += `<button id="submit-btn">Submit</button>`;
+        html += `<div id="answer-container" style="margin-top:10px;"></div>`;
+        questionContainer.innerHTML = html;
+
+        document.getElementById("submit-btn").addEventListener("click", () => {
+            const selected = document.querySelector('input[name="option"]:checked');
+            if(!selected) return alert("Please select an option");
+
+            const answerHtml = `<p>Correct Answer: ${data.correct_answer}</p>
+                <button id="show-answer-btn">Show Answer</button>
+                <div id="solution-container" style="display:none;">
+                    <p><strong>Brief Solution:</strong> ${data.brief_solution}</p>
+                    <button id="view-detail-btn">View Detailed Explanation</button>
+                    <div id="detailed-container" style="display:none;">
+                        <p>${data.detailed_explanation}</p>
+                    </div>
+                </div>`;
+            document.getElementById("answer-container").innerHTML = answerHtml;
+
+            document.getElementById("show-answer-btn").addEventListener("click", () => {
+                document.getElementById("solution-container").style.display = "block";
+            });
+            document.getElementById("view-detail-btn").addEventListener("click", () => {
+                document.getElementById("detailed-container").style.display = "block";
+            });
+        });
+
+    } catch(err){
+        console.error(err);
+        questionContainer.innerHTML = `<p style="color:red;">Failed to fetch question</p>`;
+    }
+});
+</script>
+</body>
+</html>
+
