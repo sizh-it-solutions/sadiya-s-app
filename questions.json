@@ -3,40 +3,40 @@
     {
       "question": "Which statement best describes the principle of Lift and Bernoulli Effect?",
       "options": {
-        "A": "Lift is unrelated to airspeed and pressure.",
-        "B": "Lift is generated only by the engine thrust.",
-        "C": "Lift is created by differences in air pressure over and under the wing as explained by Bernoulli's principle.",
-        "D": "Lift is generated only when the aircraft is stationary."
+        "A": "Incorrect explanation related to lift and Bernoulli principle",
+        "B": "Partially correct idea about lift and Bernoulli principle",
+        "C": "Accurate description of lift based on Bernoulli's principle",
+        "D": "Unrelated concept not tied to lift and Bernoulli principle"
       },
       "answer": "C",
-      "brief_explanation": "Lift occurs because air moves faster over the top of the wing, reducing pressure above and creating an upward force.",
-      "detailed_explanation": "According to Bernoulli's principle, faster moving air has lower pressure. The airfoil shape of the wing makes air travel faster over the top surface, reducing pressure and generating lift that supports the aircraft.",
-      "image": "images/lift_and_bernouilli_principle.jpg"
+     "brief_explanation": "Lift is generated because faster airflow over the curved upper surface of a wing reduces pressure above it, while higher pressure beneath the wing pushes it upward, creating the upward force needed for flight. Increasing the wing's angle of attack increases lift up to a point before stalling.",
+     "detailed_explanation": "According to Bernoulli’s principle, air moving over the wing’s curved top surface accelerates, which lowers the pressure compared to the slower-moving air below the wing. This pressure difference produces lift. Additionally, Newton’s third law explains that as the wing deflects air downward, the wing experiences an equal upward force. For example, increasing the wing’s angle of attack (the angle between the chord line of the wing and the oncoming airflow) increases the lift because more air is deflected downward. However, if the angle becomes too steep, airflow can separate from the wing surface, causing a stall and a sudden loss of lift. This practical relationship between angle of attack and lift is crucial for safe aircraft operation.",
+     "image": "images/lift_and_bernouilli_principle.jpg"
     },
     {
-      "question": "Which type of drag is affected by the shape of the aircraft?",
+      "question": "Identify the correct definition of Angle of Attack in aviation aerodynamics.",
       "options": {
-        "A": "Parasitic Drag",
-        "B": "Induced Drag",
-        "C": "Profile Drag",
-        "D": "Wave Drag"
+        "A": "Incorrect explanation related to angle of attack",
+        "B": "Partially correct idea about angle of attack",
+        "C": "Accurate description of the angle between chord line and relative airflow",
+        "D": "Unrelated concept not tied to angle of attack"
       },
       "answer": "C",
-      "brief_explanation": "Profile drag depends on the shape and surface of the aircraft moving through the air.",
-      "detailed_explanation": "Profile drag is caused by the friction of air against the surface of the aircraft and by the pressure differences due to shape. Streamlined shapes reduce profile drag, improving efficiency."
-    },
-    {
-      "question": "What is the angle of attack in an aircraft?",
-      "options": {
-        "A": "The angle between the runway and the aircraft during takeoff.",
-        "B": "The angle between the chord line of the wing and the relative airflow.",
-        "C": "The angle between the fuselage and the horizon.",
-        "D": "The angle at which the pilot looks out the cockpit."
-      },
-      "answer": "B",
-      "brief_explanation": "Angle of attack is the angle between the wing chord line and the oncoming air.",
-      "detailed_explanation": "The angle of attack is critical for lift. Too small, and lift is insufficient. Too large, and the wing may stall. Pilots adjust the angle to maintain controlled flight.",
+      "brief_explanation": "Angle of Attack (AoA) is the angle between the wing’s chord line and the oncoming relative airflow. It directly affects the amount of lift generated; a higher AoA increases lift up to the critical point, after which a stall occurs.",
+      "detailed_explanation": "Angle of Attack is the angle between the wing’s chord line (an imaginary straight line from the leading edge to the trailing edge of the wing) and the relative airflow. Increasing the AoA increases the lift because the wing deflects more air downward, according to Newton’s third law, and enhances the pressure difference above and below the wing following Bernoulli’s principle. For example, during takeoff, a pilot raises the nose to increase AoA and generate sufficient lift. However, exceeding the critical AoA causes airflow separation and a stall, where lift suddenly drops. Monitoring and controlling AoA is crucial for safe flight operations and is often aided by AoA indicators in modern aircraft.",
       "image": "images/angle_of_attack.jpg"
+    },
+    {
+      "question": "Which description correctly categorizes the types of Drag experienced by an aircraft?",
+      "options": {
+        "A": "Incorrect explanation related to drag types",
+        "B": "Partially correct idea about drag types",
+        "C": "Accurate explanation of parasite, induced, and profile drag",
+        "D": "Unrelated concept not tied to drag types"
+      },
+      "answer": "C",
+    "brief_explanation": "Aircraft drag is mainly categorized into parasite drag, induced drag, and profile drag, each arising from different aerodynamic causes.",
+    "detailed_explanation": "Parasite drag is caused by the aircraft’s structure moving through the air and increases with speed. Induced drag results from the production of lift, particularly from wingtip vortices, and decreases with speed. Profile drag is related to the shape and smoothness of the wing and airframe. Together, these drag components directly affect fuel efficiency, climb performance, and maximum speed."
     },
     {
       "question": "Select the statement that accurately explains the concept of Boundary Layer on an aircraft wing.",
@@ -47,8 +47,8 @@
         "D": "Unrelated concept not tied to boundary layer"
       },
       "answer": "C",
-      "brief_explanation": "The Boundary Layer is a thin layer of air next to the wing surface affecting drag and lift.",
-      "detailed_explanation": "The correct option explains it as the thin layer of airflow near the wing surface that influences drag and lift behavior."
+      "brief_explanation": "The boundary layer is the thin layer of air directly in contact with an aircraft’s wing surface, where airflow slows due to friction and significantly affects drag and lift.",
+      "detailed_explanation": "The boundary layer begins at the wing’s leading edge and grows thicker further back along the surface. Within this region, the air velocity transitions from zero (at the surface, due to friction) to nearly the free-stream velocity outside the layer. It plays a critical role in determining drag, lift, and the onset of flow separation or stall. Smooth, laminar boundary layers produce less drag but are more prone to separation, while turbulent boundary layers create more drag but stay attached to the surface longer, delaying stall. Understanding boundary layer behavior is essential for designing efficient wings and for pilots to manage stall and performance."
     },
     {
       "question": "Which statement correctly explains Stability and Control in an aircraft?",
@@ -59,8 +59,8 @@
         "D": "Unrelated concept not tied to stability and control"
       },
       "answer": "C",
-      "brief_explanation": "Stability ensures predictable aircraft behavior; control enables maneuvering.",
-      "detailed_explanation": "The correct option explains static and dynamic stability along with primary flight controls."
+      "brief_explanation": "Stability ensures an aircraft naturally maintains or returns to steady flight after a disturbance, while control refers to the pilot’s ability to deliberately change and maneuver the aircraft’s attitude and path.",
+      "detailed_explanation": "Aircraft stability is divided into static stability (the initial tendency to return to equilibrium after a disturbance) and dynamic stability (the aircraft’s longer-term motion until it settles back to steady flight). Positive stability means the aircraft resists deviations, while negative stability means deviations increase. Control refers to the pilot’s ability to intentionally maneuver the aircraft using primary flight controls: the elevator (pitch), ailerons (roll), and rudder (yaw). A well-designed aircraft balances stability (for safety and predictability) with controllability (to allow effective maneuvering). Too much stability makes an aircraft difficult to maneuver, while too little stability makes it unsafe to fly."
     },
     {
       "question": "Identify the correct description of Yaw motion in an aircraft.",
@@ -71,8 +71,8 @@
         "D": "No relation to aircraft axes"
       },
       "answer": "B",
-      "brief_explanation": "Yaw is the side-to-side motion of the aircraft around its vertical axis.",
-      "detailed_explanation": "The correct option explains that yaw is controlled by the rudder and affects the aircraft’s heading."
+     "brief_explanation": "Yaw is the rotation of an aircraft about its vertical axis, producing side-to-side movement of the nose and directly influencing the aircraft’s heading.",
+     "detailed_explanation": "Yaw motion is controlled by the rudder, located on the vertical stabilizer. When the pilot applies rudder input, the nose of the aircraft moves left or right around the vertical axis. This motion changes the aircraft’s heading but does not directly bank the aircraft for a turn. Instead, yaw control is critical for coordination during turns, correcting for crosswind during takeoff and landing, and counteracting adverse yaw caused by aileron inputs. Without proper yaw control, an aircraft can skid or slip, reducing efficiency and potentially compromising safety."
     },
     {
       "question": "Which statement best defines Pitch in aviation terms?",
@@ -83,8 +83,8 @@
         "D": "No relation to aircraft axes"
       },
       "answer": "C",
-      "brief_explanation": "Pitch is the up-and-down motion around the lateral axis.",
-      "detailed_explanation": "The correct option explains pitch control is achieved through the elevator and affects the aircraft’s climb or descent."
+     "brief_explanation": "Pitch is the rotation of an aircraft about its lateral axis, causing the nose to move up or down and directly influencing climb and descent.",
+     "detailed_explanation": "Pitch is controlled by the elevator, which is mounted on the horizontal stabilizer. When the pilot pulls back on the control column, the elevator deflects upward, causing the tail to push downward and the nose to rise, leading to a climb. Pushing forward causes the elevator to deflect downward, raising the tail and lowering the nose for a descent. Proper pitch control is essential for maintaining altitude, establishing climb or descent rates, managing airspeed, and performing maneuvers such as stalls and recoveries. Pitch changes also directly affect the aircraft’s angle of attack, which is critical for lift and stall awareness."
     },
     {
       "question": "Select the statement that accurately explains Roll motion in an aircraft.",
@@ -95,8 +95,8 @@
         "D": "No relation to aircraft axes"
       },
       "answer": "C",
-      "brief_explanation": "Roll is the tilting motion around the aircraft’s longitudinal axis.",
-      "detailed_explanation": "The correct option explains roll control is achieved through ailerons and affects bank angle during turns."
+      "brief_explanation": "Roll is the rotation of an aircraft about its longitudinal axis, causing one wing to rise while the other lowers, and is the primary motion used to initiate turns.",
+      "detailed_explanation": "Roll is controlled by the ailerons, which are located on the trailing edges of the wings. When the pilot moves the control column sideways, one aileron deflects upward (reducing lift) while the other deflects downward (increasing lift). This imbalance in lift causes the aircraft to rotate around its longitudinal axis, creating a bank. Banking changes the direction of lift, allowing the aircraft to turn. Roll control is essential for coordinated turns, recovery from turbulence, and maintaining lateral balance. Improper roll management can lead to uncoordinated flight, skidding, or slipping, which reduces efficiency and safety."
     },
     {
       "question": "Which statement correctly explains the function of the Rudder in flight control?",
@@ -107,11 +107,11 @@
         "D": "Controls speed"
       },
       "answer": "B",
-      "brief_explanation": "The rudder controls yaw, the side-to-side motion of the aircraft.",
-      "detailed_explanation": "The correct option explains that rudder input affects heading and coordination during turns."
+      "brief_explanation": "The rudder is the primary flight control surface that manages yaw, the side-to-side motion of the aircraft’s nose around the vertical axis, directly influencing heading.",
+      "detailed_explanation": "The rudder is mounted on the vertical stabilizer (fin) and is operated by the pilot’s foot pedals. Deflecting the rudder changes the aerodynamic force on the tail, causing the nose to swing left or right (yaw). While the rudder can change heading, it is most important for maintaining coordinated flight by counteracting adverse yaw produced by the ailerons during turns. It is also critical during crosswind takeoffs and landings, engine-out situations in multi-engine aircraft, and preventing unwanted side-slip. Excessive or uncoordinated rudder use, however, can lead to skidding turns or structural stress. Thus, the rudder complements the ailerons and elevator to provide full three-axis control."
     },
     {
-      "question": "Q19. V-n Diagram: What is the correct theoretical explanation of this concept?",
+      "question": "V-n Diagram: What is the correct theoretical explanation of this concept?",
       "options": {
         "A": "Incorrect explanation related to v-n diagram",
         "B": "Partially correct idea about v-n diagram",
@@ -119,8 +119,8 @@
         "D": "Unrelated concept not tied to v-n diagram"
       },
       "answer": "C",
-      "brief_explanation": "V-n Diagram is explained by fundamental aerodynamic principles.",
-      "detailed_explanation": "This question refers to the theory of V-n Diagram. The correct option explains the standard aerodynamic principle as described in Bob Tait's CPL Aerodynamics textbook. Other options represent common misconceptions."
+      "brief_explanation": "The V-n Diagram (Velocity–Load Factor diagram) illustrates the structural and aerodynamic limits of an aircraft, showing safe operating ranges of speed and load factor (G-forces).",
+      "detailed_explanation": "The V-n diagram is a fundamental tool in aerodynamics and aircraft performance. It plots airspeed on the horizontal axis and load factor (n, in Gs) on the vertical axis. The diagram defines key limits: stall boundaries, maximum load factor (positive and negative), maneuvering speed (Va), maximum speed in turbulence (Vb), never-exceed speed (Vne), and structural failure points. Within the enclosed area, the aircraft can safely operate; outside this envelope, the aircraft may stall or suffer structural failure. Pilots use the V-n diagram to understand how speed and maneuvering interact with structural limits, especially when flying in turbulence or performing abrupt maneuvers."
     },
     {
       "question": "Which statement correctly defines Universal Coordinated Time (UTC) in aviation?",
@@ -131,8 +131,8 @@
         "D": "Time used only for weather reporting"
       },
       "answer": "C",
-      "brief_explanation": "UTC is the standard time reference for all aviation operations worldwide.",
-      "detailed_explanation": "The correct option ensures pilots and controllers coordinate using a single time reference regardless of local time zones."
+      "brief_explanation": "UTC (Coordinated Universal Time) is the single global time standard used in aviation to ensure all pilots, controllers, and operations are synchronized regardless of local time zones or daylight saving changes.",
+      "detailed_explanation": "In aviation, precise coordination across different regions is essential for safety and efficiency. Local times vary by time zones and can shift with daylight saving, which could cause confusion. To eliminate this, all flight operations—such as flight plans, weather reports (METARs/TAFs), ATC clearances, and NOTAMs—use UTC. This ensures that a departure in one country and an arrival in another are logged on the same universal time reference. UTC is often referred to as 'Zulu time' (Z) in aviation communications. By standardizing on UTC, aviation avoids miscommunication and scheduling errors that could compromise safety."
     },
     {
       "question": "Which instrument measures the aircraft's speed through the air?",
@@ -143,8 +143,8 @@
         "D": "Compass"
       },
       "answer": "B",
-      "brief_explanation": "Airspeed indicator measures aircraft speed relative to the surrounding air.",
-      "detailed_explanation": "The correct option uses pitot and static pressures to indicate the aircraft's speed accurately."
+     "brief_explanation": "The airspeed indicator measures how fast an aircraft is moving relative to the surrounding air, which is critical for safe flight operations.",
+     "detailed_explanation": "The airspeed indicator operates using a pitot-static system. The pitot tube measures the dynamic pressure of the air caused by the aircraft’s motion, while static ports measure the ambient air pressure. The instrument calculates airspeed by comparing these pressures and displaying it on the dial. Airspeed information is essential for maintaining lift, avoiding stalls, ensuring structural limits are not exceeded, and controlling climb and descent rates. Different airspeeds, such as indicated airspeed (IAS), true airspeed (TAS), and calibrated airspeed (CAS), provide pilots with necessary performance data for navigation and safety."
     },
     {
       "question": "What does the term 'Vne' signify in aircraft performance?",
@@ -155,8 +155,8 @@
         "D": "Cruising speed"
       },
       "answer": "B",
-      "brief_explanation": "Vne is the maximum speed limit for safe flight.",
-      "detailed_explanation": "Exceeding Vne can cause structural damage to the aircraft."
+      "brief_explanation": "Vne (Velocity Never Exceed) is the maximum speed an aircraft can safely fly under any conditions, beyond which structural damage or loss of control may occur.",
+      "detailed_explanation": "Vne is defined by the aircraft manufacturer and is typically marked on the airspeed indicator with a red radial line. Exceeding Vne subjects the airframe and control surfaces to aerodynamic forces they were not designed to handle, which can lead to structural failure, control surface flutter, or loss of control. Pilots must ensure that maneuvers, turbulence, or dives do not allow the aircraft to exceed this speed. Understanding and respecting Vne is crucial for safe flight operations, especially in high-speed or turbulent conditions."
     },
     {
       "question": "Which statement correctly defines Vso?",
@@ -167,8 +167,8 @@
         "D": "Never exceed speed"
       },
       "answer": "B",
-      "brief_explanation": "Vso is the stall speed with flaps extended and landing gear down.",
-      "detailed_explanation": "Knowing Vso helps maintain safe approach and landing speeds."
+      "brief_explanation": "Vso is the minimum airspeed at which the aircraft can maintain controlled flight with full flaps extended and landing gear down, typically during approach and landing.",
+      "detailed_explanation": "Vso represents the stall speed in the landing configuration, meaning that if the aircraft slows below this speed, it risks stalling. Pilots use Vso to set safe approach speeds, often adding a safety margin above Vso to ensure adequate control during landing. This speed is critical for determining landing distances, flap settings, and approach profiles. Understanding Vso helps pilots avoid accidental stalls close to the ground, which could be catastrophic, and ensures smooth, safe touchdowns under varying weight and wind conditions."
     },
     {
       "question": "Which statement correctly defines Vs1?",
@@ -179,8 +179,8 @@
         "D": "Cruising speed"
       },
       "answer": "A",
-      "brief_explanation": "Vs1 is stall speed with flaps retracted.",
-      "detailed_explanation": "Vs1 indicates the minimum controllable airspeed in a clean configuration."
+     "brief_explanation": "Vs1 is the minimum airspeed at which an aircraft can maintain controlled flight with flaps and landing gear retracted, also called the clean configuration stall speed.",
+     "detailed_explanation": "Vs1 indicates the stall speed in a clean configuration, meaning no high-lift devices like flaps are deployed and the landing gear is up. This speed represents the lowest controllable airspeed the aircraft can achieve without stalling in cruise or climb configuration. Pilots use Vs1 to ensure safe maneuvering at low speeds during climb-out, pattern work, or when configuring the aircraft for higher speeds. Awareness of Vs1 helps prevent inadvertent stalls and maintains stability and control, especially during transitions between climb, cruise, and descent phases."
     },
     {
       "question": "Which statement best defines Mach Number?",
@@ -191,8 +191,8 @@
         "D": "Ratio of drag to thrust"
       },
       "answer": "A",
-      "brief_explanation": "Mach number is the ratio of aircraft speed to the local speed of sound.",
-      "detailed_explanation": "Supersonic flight occurs at Mach > 1, affecting aerodynamics and control."
+      "brief_explanation": "Mach number is the ratio of an aircraft's true airspeed to the local speed of sound, indicating subsonic, transonic, or supersonic flight regimes.",
+      "detailed_explanation": "Mach number provides a dimensionless measure of speed relative to the speed of sound, which varies with air temperature and altitude. Mach < 1 indicates subsonic flight, Mach ≈ 1 is transonic, and Mach > 1 is supersonic. Flying near or above Mach 1 significantly alters aerodynamic characteristics: shock waves form, drag increases sharply (wave drag), and control surface effectiveness can change. Pilots must be aware of Mach limits, such as Mmo (maximum operating Mach), to avoid structural stress or control issues. Mach number is critical for high-speed aircraft design, navigation, and safety."
     },
     {
       "question": "Which statement correctly explains the Coriolis Effect in navigation?",
@@ -203,8 +203,8 @@
         "D": "No effect in aviation"
       },
       "answer": "B",
-      "brief_explanation": "Coriolis effect deflects moving objects due to Earth's rotation.",
-      "detailed_explanation": "This principle is critical in long-distance navigation and meteorology."
+      "brief_explanation": "The Coriolis effect is the apparent deflection of moving objects, including air masses and aircraft, caused by the rotation of the Earth.",
+      "detailed_explanation": "Due to the Earth's rotation, objects moving over its surface appear to curve relative to the ground: to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. In aviation, the Coriolis effect influences long-distance navigation, flight planning, and wind corrections. Pilots and navigators must account for it when calculating headings over extended routes to maintain accurate courses. It is also a fundamental factor in meteorology, affecting wind patterns, cyclones, and jet streams. Ignoring the Coriolis effect can lead to drift and off-course navigation, especially in long-range or high-speed flights."
     },
     {
       "question": "Which type of compass indicates Magnetic North rather than True North?",
@@ -215,8 +215,8 @@
         "D": "Inertial navigation system"
       },
       "answer": "B",
-      "brief_explanation": "Magnetic compass aligns with the Earth's magnetic field.",
-      "detailed_explanation": "True North and Magnetic North differ, requiring pilots to apply variation corrections."
+      "brief_explanation": "A magnetic compass shows the aircraft’s heading by aligning its needle with the Earth's magnetic field.",
+      "detailed_explanation": "The magnetic compass points toward Magnetic North, which differs from True North due to the Earth's magnetic variation (declination). Pilots must apply corrections for variation and deviation to navigate accurately. Compass errors, such as turning error, acceleration error, and northerly/southerly turning errors, can also affect readings. Despite modern avionics, the magnetic compass remains a critical backup instrument for heading reference, especially during electrical failures or in basic VFR navigation. Understanding how to read and correct compass indications ensures safe and accurate flight."
     },
     {
       "question": "Which navigation aid uses a ground-based radio beam to guide aircraft?",
@@ -227,8 +227,8 @@
         "D": "Altimeter"
       },
       "answer": "A",
-      "brief_explanation": "VOR provides azimuth guidance via a ground radio beacon.",
-      "detailed_explanation": "VOR helps pilots determine their radial and position relative to the station."
+     "brief_explanation": "VOR (VHF Omnidirectional Range) is a ground-based navigation aid that provides aircraft with azimuth information to determine direction relative to the station.",
+     "detailed_explanation": "A VOR station emits a VHF signal that allows aircraft receivers to determine the radial (angle) from the station to the aircraft. By tuning into a VOR frequency and selecting a desired radial on the aircraft's OBS (Omni-Bearing Selector), pilots can navigate along airways or directly to/from the station. VORs are essential for en-route navigation, instrument approaches, and cross-checking position. Modern navigation often combines VOR with DME (Distance Measuring Equipment) for precise position fixing. Understanding how to interpret VOR indications ensures safe, accurate, and efficient flight, especially under instrument flight rules (IFR)."
     },
     {
       "question": "Which navigation aid points to a non-directional beacon (NDB)?",
@@ -239,8 +239,8 @@
         "D": "DME"
       },
       "answer": "B",
-      "brief_explanation": "ADF points to an NDB to indicate direction.",
-      "detailed_explanation": "ADF uses automatic direction finding to assist in navigation."
+      "brief_explanation": "ADF is a navigation instrument that points the aircraft toward a selected Non-Directional Beacon (NDB) on the ground.",
+      "detailed_explanation": "The ADF system automatically detects signals transmitted by NDB stations and indicates the relative bearing to the station on the aircraft’s instrument panel. Pilots use ADF to determine direction to or from the NDB, enabling track flying, holding patterns, and approaches. Unlike VOR, ADF/NDB navigation is subject to signal interference from terrain, weather, and coastal refraction, so pilots must apply corrections for accurate navigation. Understanding ADF operation is important for maintaining situational awareness, especially in regions where NDBs remain a primary navigation aid."
     },
     {
       "question": "Which statement correctly defines an Instrument Landing System (ILS)?",
@@ -251,8 +251,8 @@
         "D": "An altitude measuring device"
       },
       "answer": "B",
-      "brief_explanation": "ILS provides lateral and vertical guidance for precision approaches.",
-      "detailed_explanation": "The correct option explains how ILS helps pilots safely land during low visibility conditions."
+      "brief_explanation": "ILS (Instrument Landing System) is a precision approach aid that provides both lateral (localizer) and vertical (glideslope) guidance to aircraft during landing.",
+      "detailed_explanation": "The ILS system uses ground-based transmitters to create a localizer beam for lateral guidance along the runway centerline and a glideslope beam for vertical descent angle. Pilots follow these signals to maintain the correct approach path, especially in low visibility or instrument meteorological conditions (IMC). ILS allows safe, controlled landings by reducing the risk of deviation from the approach path, and it is categorized by approach type (e.g., CAT I, II, III) depending on the minimum visibility required. Understanding ILS operation ensures precision during approach, proper glidepath adherence, and safe landings under challenging conditions."
     },
     {
       "question": "Which statement defines the purpose of Distance Measuring Equipment (DME)?",
@@ -262,8 +262,9 @@
         "C": "Measures airspeed",
         "D": "Measures wind direction"
       },
-      "brief_explanation": "DME provides slant range distance from a DME ground station.",
-      "detailed_explanation": "It is used in combination with VOR for position fixing and navigation."
+      "answer": "B",
+      "brief_explanation": "DME (Distance Measuring Equipment) provides the aircraft with the slant-range distance to a ground-based DME station.",
+      "detailed_explanation": "DME works by sending an interrogation signal from the aircraft to the ground station, which replies after a fixed delay. The equipment calculates the time taken for the round trip and converts it into distance, giving the pilot the slant-range (straight-line) distance to the station. DME is often paired with VOR (VOR/DME) to provide both bearing and distance, enabling precise position fixing and en-route navigation. Pilots use DME information for holding patterns, approach procedures, and en-route waypoints, ensuring accurate navigation and situational awareness even under instrument flight rules (IFR)."
     },
     {
       "question": "Which navigation aid allows pilots to track radial courses from a ground station?",
@@ -274,8 +275,8 @@
         "D": "GPS"
       },
       "answer": "B",
-      "brief_explanation": "VOR allows pilots to track a radial from the station to determine position.",
-      "detailed_explanation": "By tuning into a VOR frequency, pilots can determine their bearing relative to the station."
+      "brief_explanation": "VOR enables pilots to determine their aircraft’s position by tracking a selected radial from a ground station.",
+      "detailed_explanation": "By tuning the aircraft’s navigation receiver to the VOR station frequency and selecting a radial on the Omni-Bearing Selector (OBS), pilots can determine the bearing from the station to their aircraft. This allows them to fly directly to or from the station, follow airways, or cross-check position. Combining VOR radials with DME distance provides precise position fixing. Understanding how to interpret VOR radials is essential for safe navigation, en-route flight planning, and instrument approaches, especially under instrument flight rules (IFR)."
     },
     {
       "question": "Which statement best describes a Flight Management System (FMS)?",
@@ -286,8 +287,8 @@
         "D": "Weather monitoring system"
       },
       "answer": "B",
-      "brief_explanation": "FMS automates navigation, performance calculations, and route guidance.",
-      "detailed_explanation": "The FMS integrates GPS, INS, and navigation aids to optimize flight paths."
+     "brief_explanation": "FMS (Flight Management System) automates navigation, performance management, and route guidance for modern aircraft.",
+     "detailed_explanation": "The FMS integrates inputs from GPS, Inertial Navigation Systems (INS), VOR/DME, and other navigation aids to compute optimal flight paths, fuel consumption, and time en route. It provides pilots with lateral and vertical guidance, manages waypoints, and can automatically control the autopilot for efficient navigation along airways. FMS reduces pilot workload, increases flight accuracy, and supports flight planning, en-route management, and approaches. Understanding FMS functionality is essential for operating modern aircraft safely and efficiently."
     },
     {
       "question": "Which type of altitude is indicated by the altimeter when set to standard pressure (1013 hPa)?",
@@ -298,8 +299,8 @@
         "D": "Density altitude"
       },
       "answer": "C",
-      "brief_explanation": "Pressure altitude is read when the altimeter is set to standard pressure.",
-      "detailed_explanation": "Pressure altitude is important for flight levels and airspace separation."
+      "brief_explanation": "Pressure altitude is the altitude indicated when the aircraft’s altimeter is set to the standard pressure of 1013.25 hPa (29.92 inHg).",
+      "detailed_explanation": "Pressure altitude represents the height above the standard datum plane, ignoring local atmospheric pressure variations. It is used for determining flight levels, ensuring proper vertical separation in controlled airspace, and calculating aircraft performance such as takeoff, climb, and landing distances. Pilots rely on pressure altitude for accurate altitude reporting to air traffic control, performance charts, and high-altitude navigation where standard pressure settings are applied. Understanding pressure altitude is critical for safe flight planning and compliance with aviation regulations."
     },
     {
       "question": "Which statement defines True Airspeed (TAS)?",
@@ -310,8 +311,8 @@
         "D": "Maximum allowable speed"
       },
       "answer": "A",
-      "brief_explanation": "TAS is indicated airspeed corrected for air density (altitude and temperature).",
-      "detailed_explanation": "TAS is used in performance calculations and navigation planning."
+      "brief_explanation": "True Airspeed (TAS) is the aircraft's actual speed relative to the surrounding air, corrected for altitude and temperature.",
+      "detailed_explanation": "TAS is derived by correcting the indicated airspeed (IAS) for non-standard air density caused by altitude and temperature. It is essential for accurate flight planning, navigation, and performance calculations, including fuel consumption, time en route, and wind correction. TAS increases with altitude for a given IAS because air density decreases. Pilots use TAS to determine groundspeed when combined with wind information and to ensure safe and efficient operations, especially at higher altitudes or in varying atmospheric conditions."
     },
     {
       "question": "Which type of aircraft icing occurs when supercooled droplets freeze on impact with the airframe?",
@@ -322,8 +323,8 @@
         "D": "Frost"
       },
       "answer": "A",
-      "brief_explanation": "Clear ice forms when supercooled water spreads over surfaces and freezes slowly.",
-      "detailed_explanation": "Clear ice is heavy, hard, and adheres strongly to aircraft surfaces, affecting aerodynamics."
+      "brief_explanation": "Clear ice forms when supercooled water droplets strike aircraft surfaces and freeze slowly, creating a smooth, transparent layer.",
+      "detailed_explanation": "Clear ice is dense, heavy, and strongly adheres to wings, control surfaces, and propellers. It often forms in large droplets at temperatures slightly below freezing, typically in clouds or freezing rain. Its smooth, transparent nature makes it hard to detect visually, but it significantly disrupts airflow, increases drag, reduces lift, and can impair control surfaces. Pilots must recognize and manage clear ice through anti-icing or de-icing systems to maintain aircraft performance and safety."
     },
     {
       "question": "Which type of aircraft icing forms as rough, opaque ice on leading edges?",
@@ -334,8 +335,8 @@
         "D": "Frost"
       },
       "answer": "B",
-      "brief_explanation": "Rime ice forms quickly in small droplets and appears rough and milky.",
-      "detailed_explanation": "Rime ice is less dense but can disrupt airflow, especially on wings and propellers."
+     "brief_explanation": "Rime ice forms rapidly when small supercooled water droplets freeze on contact with aircraft surfaces, creating a rough, opaque layer.",
+     "detailed_explanation": "Rime ice is less dense than clear ice and appears milky or frosty. It typically forms in stratified clouds at colder temperatures. While it is lighter and easier to remove than clear ice, it still disrupts airflow over wings and control surfaces, reducing lift and increasing drag. Rime ice can also affect propellers and pitot-static systems. Pilots need to recognize rime ice accumulation and use anti-icing or de-icing systems to maintain safe aircraft performance."
     },
     {
       "question": "Which statement describes the phenomenon of wake turbulence?",
@@ -346,8 +347,8 @@
         "D": "No effect on smaller aircraft"
       },
       "answer": "B",
-      "brief_explanation": "Wake turbulence results from wingtip vortices of a preceding aircraft.",
-      "detailed_explanation": "It is dangerous to small aircraft and must be avoided by proper separation."
+      "brief_explanation": "Wake turbulence is created by wingtip vortices generated by an aircraft as it moves through the air.",
+      "detailed_explanation": "Wake turbulence consists of rotating air masses trailing from the wingtips, strongest from heavy, slow, or clean-configured aircraft. It poses significant hazards to following aircraft, especially smaller ones, potentially causing loss of control. Pilots must maintain proper vertical and horizontal separation, follow ATC guidance, and be aware of vortex avoidance procedures during takeoff, landing, and crossing behind other aircraft. Understanding wake turbulence is critical for flight safety and air traffic management."
     },
     {
       "question": "Which statement defines a NOTAM?",
@@ -358,8 +359,8 @@
         "D": "Navigation chart"
       },
       "answer": "B",
-      "brief_explanation": "NOTAMs provide pilots with timely information about airspace, facilities, and hazards.",
-      "detailed_explanation": "Pilots must review relevant NOTAMs before flight for safety compliance."
+     "brief_explanation": "NOTAMs (Notices to Airmen) are official communications that provide pilots with current information about airspace, airports, navigation aids, and potential hazards.",
+     "detailed_explanation": "NOTAMs inform pilots of temporary or permanent changes affecting flight operations, such as runway closures, navigation aid outages, airspace restrictions, or obstacles. Reviewing NOTAMs before flight is essential for planning, situational awareness, and regulatory compliance. Proper interpretation ensures pilots can avoid hazards, adjust routes, and maintain safety during all phases of flight."
     },
     {
       "question": "Which statement describes the purpose of a METAR report?",
@@ -370,8 +371,8 @@
         "D": "Air traffic instructions"
       },
       "answer": "B",
-      "brief_explanation": "METAR is a routine weather report for aviation operations.",
-      "detailed_explanation": "It provides temperature, wind, visibility, cloud cover, and other essential information."
+      "brief_explanation": "METAR is a standardized, routine aviation weather report providing current meteorological conditions at an airport.",
+      "detailed_explanation": "METARs include information on wind direction and speed, visibility, cloud cover, temperature, dew point, barometric pressure, and significant weather events such as precipitation or thunderstorms. Pilots use METARs for pre-flight planning, takeoff and landing assessments, and in-flight decision-making. Accurate interpretation of METARs ensures safe operations by allowing pilots to anticipate weather impacts on aircraft performance and flight safety."
     },
     {
       "question": "Which type of cloud is most associated with severe turbulence?",
@@ -382,8 +383,8 @@
         "D": "Altostratus"
       },
       "answer": "A",
-      "brief_explanation": "Cumulonimbus clouds contain strong updrafts and turbulence.",
-      "detailed_explanation": "Pilots must avoid CB clouds due to severe turbulence, icing, and lightning."
+      "brief_explanation": "Cumulonimbus clouds are tall, dense clouds associated with thunderstorms, strong updrafts, and severe turbulence.",
+      "detailed_explanation": "CB clouds can produce heavy rain, hail, lightning, strong wind gusts, and icing conditions. Their vertical development can extend through multiple flight levels, creating dangerous turbulence and wind shear. Pilots must avoid flying through or near CB clouds, using weather radar, ATC guidance, and proper route planning to maintain safety. Understanding CB cloud hazards is critical for both visual and instrument flight operations."
     },
     {
       "question": "Which statement best defines the term Flight Level?",
@@ -394,8 +395,8 @@
         "D": "Distance to the nearest airport"
       },
       "answer": "B",
-      "brief_explanation": "Flight Level is a pressure-based altitude reference for high-altitude flight.",
-      "detailed_explanation": "Used to ensure separation between aircraft in controlled airspace."
+      "brief_explanation": "A Flight Level (FL) is a standardized pressure-based altitude reference used for aircraft operating at higher altitudes, typically above the transition altitude.",
+      "detailed_explanation": "Flight Levels are calculated using a standard pressure setting of 1013.25 hPa (29.92 inHg), which allows aircraft to maintain vertical separation regardless of local atmospheric pressure differences. Pilots use FLs to ensure safe separation in controlled airspace, especially during cruise at high altitudes. Proper understanding of Flight Levels is essential for route planning, ATC coordination, and avoiding mid-air conflicts."
     },
     {
       "question": "Which statement describes the function of a transponder in aviation?",
@@ -406,8 +407,8 @@
         "D": "Measures fuel consumption"
       },
       "answer": "B",
-      "brief_explanation": "Transponders communicate position and altitude to radar systems.",
-      "detailed_explanation": "Modes A, C, and S are used depending on airspace and ATC requirements."
+      "brief_explanation": "An aircraft transponder is an electronic device that communicates the aircraft's position and altitude to ground radar and air traffic control.",
+      "detailed_explanation": "Transponders help ATC identify aircraft on radar and enhance situational awareness. Mode A transmits a unique aircraft code for identification, Mode C adds pressure altitude reporting, and Mode S allows data link communication including selective interrogation and traffic information. Proper use of transponder modes ensures compliance with airspace regulations, improves traffic separation, and aids collision avoidance systems like TCAS."
     },
     {
       "question": "Which statement correctly explains the concept of VOR radial?",
@@ -418,8 +419,8 @@
         "D": "Frequency of station"
       },
       "answer": "A",
-      "brief_explanation": "VOR radials define directions from the station in degrees magnetic.",
-      "detailed_explanation": "Radials allow pilots to navigate along defined courses relative to the station."
+     "brief_explanation": "VOR radials are magnetic bearings extending outward from a VOR station, defining specific directions for navigation.",
+     "detailed_explanation": "Each radial is measured in degrees from 001° to 360° relative to magnetic north at the station. Pilots use radials to determine their position, track specific courses, and fly airways. By intercepting and tracking radials, aircraft can navigate accurately between VOR stations, plan instrument approaches, and maintain separation from other traffic. Understanding VOR radials is essential for precise instrument navigation and safe flight operations."
     },
     {
       "question": "Which statement correctly describes the purpose of a holding pattern?",
@@ -430,8 +431,8 @@
         "D": "Used for weather reporting"
       },
       "answer": "B",
-      "brief_explanation": "Holding patterns keep aircraft safely separated while awaiting clearance.",
-      "detailed_explanation": "Pilots follow published entry, pattern, and exit procedures."
+      "brief_explanation": "A holding pattern is a racetrack-shaped flight path used to keep aircraft safely separated while awaiting air traffic control clearance.",
+      "detailed_explanation": "Holding patterns are flown using standard entry procedures (direct, teardrop, or parallel) depending on the aircraft’s approach direction. Pilots maintain specified speeds, altitudes, and timing to remain within the holding airspace. Holding patterns manage traffic at busy airports, during delays, or when sequencing aircraft for approaches. Correct execution ensures safe separation, efficient traffic flow, and compliance with ATC instructions."
     },
     {
       "question": "Which type of navigation uses satellite signals for precise position determination?",
@@ -442,8 +443,8 @@
         "D": "ADF"
       },
       "answer": "C",
-      "brief_explanation": "GPS provides accurate global position using satellites.",
-      "detailed_explanation": "GPS is widely used for en-route navigation and instrument approaches."
+      "brief_explanation": "GPS (Global Positioning System) provides precise three-dimensional position information anywhere on Earth using a network of satellites.",
+      "detailed_explanation": "GPS receivers determine latitude, longitude, and altitude by calculating the time it takes signals to travel from multiple satellites. Pilots use GPS for en-route navigation, terminal procedures, and instrument approaches. Modern aircraft integrate GPS with flight management systems (FMS) to optimize routes, improve situational awareness, and enhance safety. Understanding GPS limitations, such as signal obstruction and integrity monitoring, is essential for accurate navigation."
     },
     {
       "question": "Which statement best defines the term Crosswind Component?",
@@ -454,8 +455,8 @@
         "D": "Wind measured in knots"
       },
       "answer": "B",
-      "brief_explanation": "Crosswind component affects takeoff and landing performance.",
-      "detailed_explanation": "Pilots must correct for crosswind using rudder and aileron control."
+      "brief_explanation": "The crosswind component is the portion of the wind blowing perpendicular to the runway, affecting aircraft during takeoff and landing.",
+      "detailed_explanation": "Crosswinds can push the aircraft sideways, requiring pilots to apply appropriate rudder and aileron inputs to maintain runway alignment. Understanding the maximum demonstrated crosswind for a specific aircraft ensures safe operations. Proper correction techniques, such as the crab or sideslip method, are essential to prevent drift, maintain control, and ensure smooth, safe landings and takeoffs."
     },
     {
       "question": "Which statement correctly defines Ground Effect?",
@@ -466,8 +467,8 @@
         "D": "Effect on navigation instruments"
       },
       "answer": "B",
-      "brief_explanation": "Ground effect reduces drag and increases lift during takeoff and landing.",
-      "detailed_explanation": "Pilots must be aware of this effect to avoid floating during landing or takeoff."
+     "brief_explanation": "Ground effect is the increase in lift and reduction in induced drag experienced by an aircraft when flying close to the ground.",
+     "detailed_explanation": "When an aircraft is within approximately one wingspan of the ground, the interference of the surface reduces wingtip vortices, decreasing induced drag and slightly increasing lift. Pilots must anticipate ground effect during takeoff and landing, as it can cause the aircraft to 'float' above the runway, delaying touchdown or reducing climb performance. Proper technique ensures smooth landings and safe takeoffs."
     },
     {
       "question": "Which statement correctly describes the term Density Altitude?",
@@ -478,8 +479,8 @@
         "D": "Altitude at maximum takeoff weight"
       },
       "answer": "B",
-      "brief_explanation": "Density altitude accounts for temperature effects on air density.",
-      "detailed_explanation": "High density altitude reduces aircraft performance, affecting takeoff and climb."
+      "brief_explanation": "Density altitude is the pressure altitude corrected for non-standard temperature, representing the air density in terms of altitude.",
+      "detailed_explanation": "As temperature increases or pressure decreases, air density lowers, effectively increasing density altitude. High density altitude reduces engine power, propeller efficiency, and wing lift, negatively impacting takeoff distance, climb rate, and overall aircraft performance. Pilots must calculate density altitude before flight to ensure safe performance margins, especially at high-elevation airports or on hot days."
     },
     {
       "question": "Which statement describes the primary function of an altimeter?",
@@ -490,8 +491,8 @@
         "D": "Measures wind direction"
       },
       "answer": "B",
-      "brief_explanation": "Altimeter shows altitude above sea level using atmospheric pressure.",
-      "detailed_explanation": "Pilots must set altimeter to local pressure (QNH) for accurate readings."
+     "brief_explanation": "An altimeter measures the aircraft’s altitude above mean sea level by sensing atmospheric pressure.",
+     "detailed_explanation": "The altimeter uses the standard atmosphere pressure decrease with height to indicate altitude. Pilots must adjust the altimeter setting to the local QNH (sea-level pressure) to ensure accurate altitude readings. Incorrect settings can lead to altitude errors, affecting terrain clearance and separation from other aircraft. Understanding altimeter operation and limitations is essential for safe flight, especially during approaches and in mountainous terrain."
     },
     {
       "question": "Which statement defines Magnetic Variation?",
@@ -502,8 +503,8 @@
         "D": "Difference in GPS readings"
       },
       "answer": "A",
-      "brief_explanation": "Magnetic variation is the angle difference between True and Magnetic North.",
-      "detailed_explanation": "Pilots correct for variation when navigating with a compass."
+     "brief_explanation": "Magnetic variation is the angular difference between True North (geographic north) and Magnetic North at a specific location.",
+     "detailed_explanation": "Since compasses align with Magnetic North, pilots must apply the local magnetic variation to convert between true headings and compass headings. Failure to correct for variation can result in navigational errors, especially over long distances. Variation changes gradually over time and differs by location, so current charts and aeronautical publications must be consulted for accurate corrections."
     },
     {
       "question": "Which statement best explains the term Mach Buffet?",
@@ -514,8 +515,8 @@
         "D": "No relation to flight"
       },
       "answer": "B",
-      "brief_explanation": "Mach buffet occurs near transonic speeds due to airflow separation at shockwaves.",
-      "detailed_explanation": "Pilots avoid speeds near critical Mach without proper handling."
+      "brief_explanation": "Mach buffet is turbulence experienced when airflow over parts of the aircraft approaches the speed of sound, creating shockwaves.",
+      "detailed_explanation": "As an aircraft nears its critical Mach number, shockwaves form on the wings or control surfaces, causing local airflow separation and vibration known as Mach buffet. This can lead to control difficulties or structural stress. Pilots must avoid exceeding the aircraft’s critical Mach number without appropriate procedures and be aware of Mach limits indicated in the aircraft’s flight manual to ensure safe operation in high-speed flight."
     },
     {
       "question": "Which statement correctly defines Rate of Climb?",
@@ -526,8 +527,8 @@
         "D": "Aircraft weight change"
       },
       "answer": "B",
-      "brief_explanation": "Rate of climb indicates how fast an aircraft gains altitude.",
-      "detailed_explanation": "It is measured by the vertical speed indicator and is crucial for performance planning."
+       "brief_explanation": "Rate of climb represents how quickly an aircraft gains altitude, typically measured in feet per minute (fpm) using the vertical speed indicator (VSI).",
+  "detailed_explanation": "The rate of climb is a key performance metric that shows how fast an aircraft is ascending relative to the ground. It depends on excess thrust or power available compared to what is needed to maintain level flight. Factors such as aircraft weight, engine power, air density, and configuration (flaps, gear) affect climb performance. A high rate of climb is essential for obstacle clearance, safe traffic separation, and efficient transition to cruising altitude. Pilots monitor the VSI and airspeed to ensure a stable and safe climb profile."
     },
     {
       "question": "Which statement defines Vx (Best Angle of Climb)?",
@@ -538,8 +539,8 @@
         "D": "Stall speed"
       },
       "answer": "B",
-      "brief_explanation": "Vx provides the best climb angle to clear obstacles.",
-      "detailed_explanation": "Used for takeoff and obstacle clearance during initial climb."
+       "brief_explanation": "Vx is the indicated airspeed that provides the maximum altitude gain per unit of horizontal distance, making it ideal for obstacle clearance after takeoff.",
+  "detailed_explanation": "Vx is especially useful when an aircraft must clear obstacles such as trees, buildings, or rising terrain near the departure end of a runway. It provides the steepest climb gradient, sacrificing climb rate (feet per minute) for a better climb angle. Compared to Vy, which optimizes altitude gain over time, Vx prioritizes horizontal distance. As altitude increases, Vx increases slightly and converges with Vy at the aircraft’s absolute ceiling."
     },
     {
       "question": "Which statement defines Vy (Best Rate of Climb)?",
@@ -550,8 +551,8 @@
         "D": "Landing speed"
       },
       "answer": "B",
-      "brief_explanation": "Vy gives maximum altitude gain over time, optimizing climb performance.",
-      "detailed_explanation": "Vy is higher than Vx and used in normal climb operations."
+      "brief_explanation": "Vy is the indicated airspeed that provides the greatest altitude gain in the least amount of time, giving the best climb rate in feet per minute.",
+      "detailed_explanation": "Vy is typically used after clearing obstacles during takeoff to climb efficiently toward cruising altitude. Unlike Vx (best angle of climb, which maximizes altitude per distance), Vy maximizes altitude per unit of time. It changes with altitude — as altitude increases, Vy decreases and converges with Vx at the aircraft's absolute ceiling. Pilots rely on Vy to optimize climb performance, manage fuel efficiency, and maintain safe separation from terrain and airspace limits."
     },
     {
       "question": "Which statement defines Load Factor?",
@@ -562,8 +563,8 @@
         "D": "Aircraft speed over ground"
       },
       "answer": "A",
-      "brief_explanation": "Load factor measures the stress on aircraft structure in turns and maneuvers.",
-      "detailed_explanation": "It is expressed in Gs and affects stall speed and structural limits."
+      "brief_explanation": "Load factor is the ratio of the aerodynamic lift produced by an aircraft to its total weight. It reflects the additional stress on the airframe during turns, climbs, descents, or turbulence.",
+      "detailed_explanation": "Load factor is expressed in units of G (gravitational force). A load factor of 1G means the lift equals the aircraft's weight, as in straight-and-level unaccelerated flight. During a 60° banked coordinated turn, the load factor doubles to 2G, meaning the wings must produce twice the weight of the aircraft in lift. This increased load factor raises stall speed and stresses the airframe. Exceeding the structural load factor limit can cause permanent damage or catastrophic failure. Therefore, pilots must be aware of how maneuvers, turbulence, and abrupt control inputs affect load factor and must always operate within the aircraft’s design limits."
     },
     {
       "question": "Which statement best describes the purpose of an aircraft’s pitot tube?",
@@ -574,8 +575,8 @@
         "D": "Measures magnetic heading"
       },
       "answer": "B",
-      "brief_explanation": "Pitot tube measures dynamic air pressure to indicate airspeed.",
-      "detailed_explanation": "It must be unobstructed to provide accurate readings."
+      "brief_explanation": "The pitot tube measures the dynamic pressure of the oncoming airflow to determine the aircraft’s indicated airspeed. It is a critical part of the pitot-static system, which also includes static ports for reference pressure.",
+  "detailed_explanation": "The pitot tube works by facing directly into the relative wind. As the aircraft moves, ram air enters the pitot tube and creates dynamic pressure. This pressure is compared with the static pressure (collected from static ports) in the airspeed indicator to calculate indicated airspeed (IAS). If the pitot tube becomes blocked by ice, insects, or debris, the airspeed indicator can display dangerously inaccurate values, which has contributed to past aviation accidents. For this reason, pitot heat is used to prevent ice accumulation. A correct reading of airspeed is essential for safe operations during takeoff, climb, cruise, and landing."
     },
     {
       "question": "Which statement correctly explains Wake Vortex Separation?",
@@ -586,8 +587,8 @@
         "D": "Separation only for military flights"
       },
       "answer": "A",
-      "brief_explanation": "Wake vortex separation prevents small aircraft from encountering dangerous vortices from large aircraft.",
-      "detailed_explanation": "ATC applies wake turbulence separation standards based on aircraft category."
+       "brief_explanation": "Wake vortex separation ensures safe spacing by keeping smaller aircraft away from the strong wingtip vortices generated by larger aircraft. These swirling air currents can cause loss of control if encountered too closely.",
+       "detailed_explanation": "When an aircraft generates lift, high-pressure air beneath the wing moves outward and curls around the wingtips, creating rotating air masses called vortices. Larger and heavier aircraft produce stronger vortices that can persist for several minutes. If a smaller aircraft flies too close behind, it may suddenly roll uncontrollably due to the disturbed air. To prevent this, Air Traffic Control (ATC) enforces minimum separation distances based on the size and weight category of aircraft (e.g., Heavy, Medium, Light). For example, a light aircraft must maintain greater distance behind a heavy jet during takeoff or landing to avoid dangerous wake turbulence."
     },
     {
       "question": "Which statement defines the effect of Temperature on Aircraft Performance?",
@@ -598,8 +599,8 @@
         "D": "Temperature only affects fuel burn"
       },
       "answer": "B",
-      "brief_explanation": "High temperatures reduce air density, decreasing lift and engine performance.",
-      "detailed_explanation": "Pilots must account for temperature when calculating takeoff distances and climb rates."
+      "brief_explanation": "High temperatures reduce air density, which decreases lift, engine power, and overall aircraft performance. This effect is especially critical during takeoff and climb, when maximum performance is required.",
+      "detailed_explanation": "When the outside air temperature increases, the molecules in the air spread farther apart, reducing air density. Lower air density means the wing generates less lift at a given airspeed, and the engine receives less oxygen for combustion, reducing power output. As a result, the aircraft requires a longer takeoff roll, achieves a slower climb rate, and may face payload limitations in hot conditions. Pilots must account for this by consulting performance charts and adjusting operations accordingly. \n\nFor example, at a high-altitude airport on a hot day (high density altitude), an aircraft may be unable to take off at maximum weight because the runway length is insufficient to achieve safe liftoff speed."
     }
   ]
 }
